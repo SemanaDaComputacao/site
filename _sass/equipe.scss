@@ -1,0 +1,29 @@
+.profile {
+  .image {
+    width: 100%;
+
+    figure {
+      height: 120px;
+      width: 120px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 100px;
+      margin: 0 auto 15px auto;
+   }
+  }
+
+  .title, .subtitle {
+    text-align: center;
+  }
+  .subtitle {
+    color: #aaa;
+  }
+}
+
+.table table {
+  margin: auto;
+
+  td, th {
+    border: none;
+  }
+}

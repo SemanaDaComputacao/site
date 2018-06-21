@@ -1,0 +1,14 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Esse projeto usa o [Jekyll](https://jekyllrb.com/) como gerenciador de site estático ([instruções de instalação](https://jekyllrb.com/docs/installation/)) e o [npm](https://npmjs.com) para baixar as dependências.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Equipe da Semana da Computação",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}

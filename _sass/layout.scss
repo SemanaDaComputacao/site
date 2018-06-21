@@ -1,0 +1,136 @@
+nav.navbar {
+  background-color: #0F6BB1;
+  color: white;
+
+  a {
+    color: white;
+  }
+}
+
+.navbar-item {
+  color: #66cc66 !important;
+  text-transform: uppercase;
+}
+
+.summary p {
+  width: 960px;
+}
+
+
+section.cover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010b1c+0,11369f+55 */
+  background: #010b1c; /* Old browsers */
+  background: url(/images/graph.png), -moz-linear-gradient(top, #010b1c 60%, #11369f 100%); /* FF3.6-15 */
+  background: url(/images/graph.png), -webkit-linear-gradient(top, #010b1c 60%,#11369f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: url(/images/graph.png), linear-gradient(to bottom, #010b1c 60%,#11369f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010b1c', endColorstr='#11369f',GradientType=0 ); /* IE6-9 */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  .title {
+    font-size: 5rem;
+    font-family: 'Inconsolata';
+    color: #ddd;
+  }
+
+  div.hero-body {
+    padding-bottom: 15rem;
+    padding-top: 11rem;
+  }
+}
+
+.map-wrapper {
+  font-family: 'Lato', sans-serif;
+  margin-top: 15px;
+  position: relative;
+
+  iframe {
+    width: 100%;
+    height: 630px;
+  }
+
+  .painel {
+    width: 350px;
+    height: 570px;
+    left: 10px;
+    position: absolute;
+    top: 45px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    border-radius: 2px;
+    color: #565A5C;
+
+    .image-wrapper {
+      position: relative;
+    }
+
+    .image {
+      background-image: url(/images/ime-fachada-700.jpg);
+      width: 100%;
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .image::after {
+      background: #000;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      content: " ";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    h2 {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 43%;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .content {
+      margin: 10px;
+      font-size: 14px;
+    }
+  }
+}
+
+.features {
+  & > div > p.title {
+  }
+  .heading {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .title {
+    width: 55px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+footer ul.edicoes {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  li {
+    float: left;
+    margin: 0 20px 0 20px;
+  }
+}
