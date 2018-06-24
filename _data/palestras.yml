@@ -1,0 +1,43 @@
+- name: VTEX
+  palestrante: VTEX
+
+- name: Deep Learning
+  palestrante: João Paulo Navarro
+  afiliacao: NVIDIA
+  resumo: |
+     Deep Learning é a técnica de Machine Learning que vem proporcionando avanços surpreendentes nos mais variados fluxos de trabalho da indústria e academia. Veremos aplicações dos algoritmos de DL em diversas áreas do conhecimento, como Visão Computacional, Carros Autônomos e Robótica!
+
+- name: Lógica Fuzzy
+  palestrante: Pedro Tonelli
+  afiliacao: USP
+
+- name: Segurança da Informação
+  palestrante: Marcos
+
+- name: Quebra da Lei de Moore
+  palestrante: Aleardo Manaciero
+
+- name: Algoritmos Evolutivos
+  palestrante: Fernando Von Zuben
+
+- name: Jornalismo de Dados
+  palestrante: Natália Mazotte
+  afiliacao: Open Knowledge
+
+- name: High Perfomancing Computing
+  palestrante: NVIDIA
+
+- name: Deep Learning
+  palestrante: Finger
+
+- name: Dívida Técnica
+  palestrante: Graziela Tonin
+  resumo: |
+     Estudos recentes revelam que o custo da dívida técnica pode chegar a $3 por linha de código, impactando em milhares de reais por projeto. Nesta palestra será apresentado como estes times gerem as dívidas técnicas, desafios, métricas, processos e ferramentas que podem auxiliar tal atividade. Bem como serão apresentadas algumas dicas e sugestões de como utilizá-las estrategicamente nos projetos.
+
+- name: UX/UI
+  palestrante: Giselle
+  afiliacao: FAU-USP
+
+- name: Geração Procedural em Jogos
+  palestrante: André Siqueira Ruela

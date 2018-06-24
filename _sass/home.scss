@@ -1,0 +1,148 @@
+div.body {
+  background: $blue;
+  color: $green;
+  h1.title {
+    color: $white;
+  }
+}
+
+section.cover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010b1c+0,11369f+55 */
+  background: #010b1c; /* Old browsers */
+  background: url(/images/graph.png), -moz-linear-gradient(top, #010b1c 60%, $blue 100%); /* FF3.6-15 */
+  background: url(/images/graph.png), -webkit-linear-gradient(top, #010b1c 60%,$blue 100%); /* Chrome10-25,Safari5.1-6 */
+  background: url(/images/graph.png), linear-gradient(to bottom, #010b1c 60%, $blue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010b1c', endColorstr='$blue'); /* IE6-9 */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  .title {
+    font-size: 5rem;
+    font-family: 'Inconsolata';
+    color: #ddd;
+
+    @media (max-width: 480px) {
+      font-size: 3.4rem;
+    }
+  }
+  .subtitle {
+    color: #ddd;
+
+    @media (max-width: 480px) {
+      font-size: 1rem;
+    }
+  }
+
+  div.hero-body {
+    padding-bottom: 15rem;
+    padding-top: 11rem;
+  }
+}
+
+.map-wrapper {
+  font-family: 'Lato', sans-serif;
+  margin-top: 15px;
+  position: relative;
+
+  h1,h2,h3,h4,h5,h6, strong {
+    color: $black;
+  }
+
+  a {
+    color: $link;
+  }
+
+  iframe {
+    width: 100%;
+    height: 630px;
+  }
+
+  .painel {
+    width: 350px;
+    height: 570px;
+    left: 10px;
+    position: absolute;
+    top: 45px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    border-radius: 2px;
+    color: #565A5C;
+
+    .image-wrapper {
+      position: relative;
+    }
+
+    .image {
+      background-image: url(/images/ime-fachada-700.jpg);
+      width: 100%;
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .image::after {
+      background: #000;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      content: " ";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    h2 {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 43%;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .content {
+      margin: 10px;
+      font-size: 14px;
+    }
+  }
+}
+
+.card {
+  background: $background-on-blue;
+  color: $black;
+
+  .title {
+    color: $green-darker;
+  }
+  .subtitle {
+    color: $black;
+  }
+}
+
+.features {
+  background: $background-on-blue;
+  color: $black;
+  margin: 20px 40px;
+  padding: 40px 0;
+
+  .heading {
+    color: $green-darker;
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .title {
+    width: 55px;
+    margin: 0 auto 0 auto;
+  }
+}

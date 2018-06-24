@@ -1,0 +1,38 @@
+<div class="agenda">
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for segunda in site.data.programacao.segunda %}
+                {% assign terca = site.data.programacao.terca[forloop.index0] %}
+                {% assign quarta = site.data.programacao.quarta[forloop.index0] %}
+                {% assign quinta = site.data.programacao.quinta[forloop.index0] %}
+                {% assign sexta = site.data.programacao.sexta[forloop.index0] %}
+
+                <tr>
+                    <th>
+                        {%if forloop.index == 1 %}14:00<br>14:50{% endif %}
+                        {%if forloop.index == 2 %}15:00<br>15:50{% endif %}
+                        {%if forloop.index == 4 %}16:30<br>17:20{% endif %}
+                        {%if forloop.index == 5 %}17:30<br>18:20{% endif %}
+                    </th>
+
+                    {% include linha.html palestra=segunda %}
+                    {% include linha.html palestra=terca %}
+                    {% include linha.html palestra=quarta %}
+                    {% include linha.html palestra=quinta %}
+                    {% include linha.html palestra=sexta %}
+
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

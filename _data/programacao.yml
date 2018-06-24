@@ -1,0 +1,45 @@
+segunda:
+    - false
+    - false
+    - Coffee Break
+    - nome: VTEX
+      palestrante: VTEX
+    - nome: Machine Learning
+      palestrante: NVIDIA
+
+terca:
+    - false
+    - nome: Lógica Fuzzy
+      palestrante: Pedro Tonelli
+    - Coffee Break
+    - false
+    - nome: Segurança da Informação
+      palestrante: Marcos
+
+quarta:
+    - nome: Quebra da Lei de Moore
+      palestrante: Aleardo Manaciero
+    - nome: Algoritmos Evolutivos
+      palestrante: Fernando Von Zuben
+    - Coffee Break
+    - false
+    - nome: High Perfomancing Computing
+      palestrante: NVIDIA
+
+quinta:
+    - nome: Deep Learning
+      palestrante: Finger
+    - nome: Dívida Técnica
+      palestrante: Graziela Tonin
+    - Coffee Break
+    - nome: UX/UI
+      palestrante: Giselle
+    - nome: Geração Procedural em Jogos
+      palestrante: André Siqueira Ruela
+
+sexta:
+    - nome: Stands de Empresas
+    - nome: Stands de Empresas
+    - Coffee Break
+    - nome: Stands de Empresas
+    - nome: Stands de Empresas

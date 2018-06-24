@@ -1,0 +1,16 @@
+<td>
+    {% if include.palestra %}
+        {% if include.palestra == 'Coffee Break' %}
+            <span>{{include.palestra}}</span>
+        {% else %}
+            <a href="#">
+                <div>
+                    {{ include.palestra.nome }}<br>
+                    <span class="palestrante">{{ include.palestra.palestrante }}</span>
+                </div>
+            </a>
+        {% endif %}
+    {% else %}
+        <span class="embreve">Em breve</span>
+    {% endif %}
+</td>

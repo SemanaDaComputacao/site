@@ -1,9 +1,16 @@
 // Set your brand colors
+$green: #66cc66;
+$green-lighter: #8dd48d;
+$green-darker: #198019;
+$blue: #183F63;
+$background-on-blue: #B2CDE3;
 //$purple: #8A4D76;
 //$pink: #FA7C91;
 //$brown: #757763;
 //$beige-light: #D0D1CD;
 //$beige-lighter: #EFF0EB;
+$white: #fff;
+$black: #000;
 
 // Update Bulma's global variables
 $family-sans-serif: "Cousine", serif;
@@ -13,8 +20,11 @@ $family-sans-serif: "Cousine", serif;
 //$link: $pink;
 $primary: #0F6BB1;
 
-$text: #222;
-$text-strong: #222;
+$text: $green;
+$text-strong: $green;
 
-$title-color: #222;
-$subtitle-color: #ddd;
+$link: #0085FF;
+$navbar-background-color: $primary;
+
+//$title-color: $white;
+//$subtitle-color: #ddd;
