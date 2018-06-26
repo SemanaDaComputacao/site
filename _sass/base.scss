@@ -10,15 +10,20 @@ $background-on-blue: #B2CDE3;
 //$beige-light: #D0D1CD;
 //$beige-lighter: #EFF0EB;
 $white: #fff;
+$white-darker: #aaa;
 $black: #000;
 
 // Update Bulma's global variables
-$family-sans-serif: "Cousine", serif;
+$family-sans-serif: "Inconsolata", serif;
 //$grey-dark: $brown;
 //$grey-light: $beige-light;
 //$primary: $purple;
 //$link: $pink;
 $primary: #0F6BB1;
+
+h1.title,h2.title,h3.title,h4.title,h5.title,h6.title {
+  color: $white;
+}
 
 $text: $green;
 $text-strong: $green;

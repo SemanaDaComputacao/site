@@ -1,17 +1,25 @@
 ---
 layout: base
+include_menu: false
 ---
 <div class="body">
-	<section class="hero cover">
+	<section class="hero cover is-fullheight">
+		<div class="hero-head">
+			{% include menu.html %}
+		</div>
 		<div class="hero-body">
 			<p class="title">
 				Semana da Computação
 			</p>
 			<p class="subtitle">
-				<span>Décima edição | IME-USP</span><br>
-				<span>17/05/18 a 24/05/18</span>
+				<span>{{ site.data.info.edicao }} edição | IME-USP</span><br>
+				<span>{{ site.data.info.periodo }}</span>
 			</p>
 			<a class="button is-primary" href="#agenda">VER PROGRAMAÇÃO</a>
+
+		</div>
+	    <div class="hero-foot">
+			<img src="images/icons/down-chevron.png" class="chevron" style="width: 38px; height: 19px">
 		</div>
 	</section>
 
@@ -19,7 +27,7 @@ layout: base
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
-					<img src="images/003-presentation.png" alt="">
+					<img src="images/icons/presentation.png" alt="">
 				</p>
 				<p class="heading">Palestras</p>
 				<p class="description">Mais de 10 horas de conteúdo sobre diversas áreas da computação</p>
@@ -28,7 +36,7 @@ layout: base
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
-					<img src="images/002-fair-stand.png" alt="">
+					<img src="images/icons/fair-stand.png" alt="">
 				</p>
 				<p class="heading">Stands de Empresas</p>
 				<p class="description">Não perca a oportunidade de ter acesso ao recrutamento das melhores empresas de tecnologia</p>
@@ -37,7 +45,7 @@ layout: base
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
-					<img src="images/001-coffee-cup.png" alt="">
+					<img src="images/icons/coffee-cup.png" alt="">
 				</p>
 				<p class="heading">Coffee Breaks</p>
 				<p class="description">Oferecemos comes e bebes para todos os participantes do evento como cortesia</p>
@@ -45,10 +53,13 @@ layout: base
 		</div>
 	</nav>
 
-	<div class="section container">
+	<div class="section container description">
 		<div class="columns is-centered">
 			<div class="column is-10">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida consectetur faucibus. Nulla sed posuere est. Pellentesque rhoncus ex non lacinia faucibus. Integer molestie, ipsum et vestibulum mattis, mi metus pharetra quam, nec eleifend metus neque id nibh. Proin a accumsan purus. Maecenas a vehicula dolor, ac sodales enim. Donec non eros turpis. Proin vel sagittis odio. Proin at maximus justo. Quisque nec cursus risus, nec sagittis sem. Maecenas nisl risus, scelerisque vel elementum in, fringilla vel est. Quisque molestie nunc vel ultrices scelerisque. Nulla placerat nulla at neque rhoncus, eget facilisis ligula vehicula.</p>
+				<p>Boas vindas a mais uma edição da <strong>Semana da Computação</strong>! O evento, gratuito e aberto, chega em 2018 na sua décima edição com muito conteúdo e algumas novidades exclusivas.</p>
+				<p>Serão <strong>16 palestras</strong> sobre os mais diversos temas da computação. Essa é uma grande oportunidade de conhecer os caminhos da carreira com <strong>especialistas nacionais e internacionais</strong>.</p>
+				<p>Nesse ano, também contaremos com um dia especial dedicado a alunos do Ensino Médio: o evento <strong>Um Dia Na Computação</strong> irá permitir que jovens comparem cursos parecidos da computação e conheçam o IME-USP.</p>
+				<p>No último dia do evento, haverá <strong>stands de recrutamento</strong> das melhores empresas de tecnologia com atuação no Brasil. Se você está se formando, procurando estágio ou apenas quer conhecer o mercado, não pode ficar de fora dessa.</p>
 			</div>
 		</div>
 	</div>

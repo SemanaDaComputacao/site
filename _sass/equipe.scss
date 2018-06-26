@@ -17,9 +17,10 @@ h1.title {
 
   .title, .subtitle {
     text-align: center;
+    color: $white;
   }
   .subtitle {
-    color: #aaa;
+    color: $white-darker;
   }
 }
 

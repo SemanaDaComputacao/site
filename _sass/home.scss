@@ -37,10 +37,20 @@ section.cover {
     }
   }
 
-  div.hero-body {
-    padding-bottom: 15rem;
-    padding-top: 11rem;
+  .chevron {
+    margin-bottom: 20px;
   }
+
+  div.hero-body {
+    justify-content: center;
+    flex-direction: column;
+    //padding-bottom: 15rem;
+    //padding-top: 11rem;
+  }
+}
+
+.description p {
+  margin-bottom: 10px;
 }
 
 .map-wrapper {
@@ -135,6 +145,7 @@ section.cover {
   .heading {
     color: $green-darker;
     font-size: 18px;
+    font-weight: bold;
   }
 
   .description {
@@ -142,7 +153,7 @@ section.cover {
   }
 
   .title {
-    width: 55px;
+    width: 65px;
     margin: 0 auto 0 auto;
   }
 }

@@ -1,31 +1,43 @@
 ---
 layout: base
 ---
-<div class="section container">
-  <div class="columns is-centered">
-    <div class="column is-10">
-      <h1 class="title has-text-centered">Equipe da Semana da Computação</h1>
-      <p class="">A Semana da Computação é um evento organizado por estudantes do IME, que conta com apoio institucional da USP e patrocínio de empresas. Conheça os alunos responsáveis pela organização do evento!</p>
-      <br>
+<div class="body">
+  <div class="section container">
+    <h1 class="title has-text-centered">Sobre a Semana da Computação</h1>
 
-      <div class="columns is-multiline">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <p>A Semana da Computação é um encontro anual que promove um ciclo de palestras sobre os mais variados temas da computação. Anteriormente conhecido como Encontro do BCC, nesse ano o evento foi rebatizado para refletir as mudanças pelas quais o evento passou.</p>
+      </div>
+    </div>
+  </div>
 
-        {% for member in site.data.team %}
-        <div class="column is-one-third" style="margin-bottom: 20px">
-          <div class="profile">
-            <div class="image">
-              <figure style="background-image: url(/images/equipe/{{member.foto}})"></figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">{{member.nome}}</p>
-              <p class="subtitle is-6">
-              <span style="text-transform: uppercase">{{member.curso}}</span><br>
-              </p>
+  <div class="section container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <h2 class="title has-text-centered">Equipe</h1>
+        <p class="">A Semana da Computação é um evento organizado por estudantes do IME e conta com apoio institucional da USP e patrocínio de empresas. Conheça os alunos responsáveis pela organização do evento!</p>
+        <br>
+
+        <div class="columns is-multiline">
+
+          {% for member in site.data.team %}
+          <div class="column is-one-third" style="margin-bottom: 20px">
+            <div class="profile">
+              <div class="image">
+                <figure style="background-image: url(/images/equipe/{{member.foto}})"></figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">{{member.nome}}</p>
+                <p class="subtitle is-6">
+                <span style="text-transform: uppercase">{{member.curso}}</span><br>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        {% endfor %}
+          {% endfor %}
 
+        </div>
       </div>
     </div>
   </div>
