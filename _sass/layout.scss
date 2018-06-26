@@ -43,11 +43,24 @@ footer {
 
 
 .agenda {
-  overflow-x: scroll;
+  overflow-x: auto;
 
   table {
+    background-color: $background-on-blue;
+    margin: auto;
     td, th {
       text-align: center;
+      border-color: #c7dbec;
+    }
+    th {
+      color: $green-darker;
+    }
+
+    @media (max-width:768px) {
+      tr {
+          width:100%;
+          display: block;
+      }
     }
   }
 
@@ -57,6 +70,6 @@ footer {
 
   .embreve {
     font-style: italic;
-    color: #bbb;
+    color: #666;
   }
 }
