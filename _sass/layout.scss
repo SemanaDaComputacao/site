@@ -55,13 +55,6 @@ footer {
     th {
       color: $green-darker;
     }
-
-    @media (max-width:768px) {
-      tr {
-          width:100%;
-          display: block;
-      }
-    }
   }
 
   .palestrante {
