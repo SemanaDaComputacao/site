@@ -22,26 +22,6 @@ nav.navbar {
   }
 }
 
-footer {
-  color: $black;
-  strong {
-    color: $black;
-  }
-
-  ul.edicoes {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-    li {
-      float: left;
-      margin: 0 20px 0 20px;
-    }
-  }
-}
-
-
 .agenda {
   overflow-x: auto;
 
@@ -66,3 +46,54 @@ footer {
     color: #666;
   }
 }
+
+footer {
+  background-color: #efefef !important;
+  color: $black;
+
+  hr {
+    background-color: #e1e1e1 !important;
+  }
+
+  .content h3 {
+    color: $green-darker !important;
+  }
+
+  strong {
+    color: $black;
+  }
+
+  ul.edicoes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      float: left;
+      margin: 0 20px 0 20px;
+    }
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    div {
+      text-align: center !important;
+      justify-content: space-around;
+    }
+    img {
+      height: 50px;
+    }
+  }
+
+  .images.apoio {
+    img {
+      height: 70px;
+    }
+  }
+}
+
+
