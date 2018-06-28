@@ -1,5 +1,6 @@
 segunda:
-    - false
+    - nome: Computação Quântica
+      palestrante: Carlos Cardonha
     - false
     - Coffee Break
     - nome: VTEX
@@ -22,7 +23,8 @@ quarta:
     - nome: Algoritmos Evolutivos
       palestrante: Fernando Von Zuben
     - Coffee Break
-    - false
+    - nome: Jornalismo de Dados
+      palestrante: Natália Mazotte
     - nome: High Perfomancing Computing
       palestrante: NVIDIA
 
