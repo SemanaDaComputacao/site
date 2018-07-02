@@ -23,26 +23,11 @@ include_menu: true
 				<h3 class="has-text-left">Patrocínio</h3>
 				<div class="images">
 					<div class="columns is-multiline">
-						<div class="column is-narrow">
-							<a href="http://www.nvidia.com.br/" title="NVIDIA"><img src="/images/patrocinio/nvidia.png" alt="NVIDIA"></a>
+						{% for item in site.data.patrocinio %}
+						<div class="column is-narrow is-4">
+							<a href="{{ item.url }}" title="{{ item.nome }}"><img src="{{ item.img }}" alt=" {{item.nome}} "></a>
 						</div>
-						<div class="column is-narrow">
-							<a href="https://www.ewally.com.br/" title="Ewally"><img src="/images/patrocinio/ewally.png" alt="Ewally"></a>
-						</div>
-						<div class="column is-narrow">
-							<a href="https://pagseguro.uol.com.br/" title="PagSeguro"><img src="/images/patrocinio/pagseguro.png" alt="PagSeguro"></a>
-						</div>
-					</div>
-					<div class="columns is-multiline">
-						<div class="column is-narrow">
-							<a href="http://www.vtex.com/" title="VTEX"><img src="/images/patrocinio/vtex.png" alt="VTEX"></a>
-						</div>
-						<div class="column is-narrow">
-							<a href="https://www.tfgco.com/" title="TFG Co"><img src="/images/patrocinio/tfg.png" alt="TFG Co"></a>
-						</div>
-						<div class="column is-narrow">
-							<img src="/images/patrocinio/ex-alunos.png" title="Ex-Alunos do BCC" alt="Ex-Alunos do BCC">
-						</div>
+						{% endfor %}
 					</div>
 				</div>
 			</div>

@@ -1,9 +1,10 @@
 segunda:
     - nome: Computação Quântica
       palestrante: Carlos Cardonha
-    - false
+    - nome: Blockchain
+      palestrante: IBM Blockchain Research
     - Coffee Break
-    - nome: VTEX
+    - nome: Banco de Dados Chave-Valor
       palestrante: VTEX
     - nome: Machine Learning
       palestrante: NVIDIA
