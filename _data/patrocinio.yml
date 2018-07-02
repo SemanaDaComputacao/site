@@ -6,17 +6,17 @@
   img: /images/patrocinio/ewally.png
   url: https://www.ewally.com.br/
 
-- nome: PagSeguro
-  img: /images/patrocinio/pagseguro.png
-  url: https://pagseguro.uol.com.br/
+# - nome: PagSeguro
+#   img: /images/patrocinio/pagseguro.png
+#   url: https://pagseguro.uol.com.br/
 
-- nome: VTEX
-  img: /images/patrocinio/vtex.png
-  url: http://www.vtex.com/
+# - nome: VTEX
+#   img: /images/patrocinio/vtex.png
+#   url: http://www.vtex.com/
 
-- nome: TFG
-  img: /images/patrocinio/tfg.png
-  url: https://www.tfgco.com/
+# - nome: TFG
+#   img: /images/patrocinio/tfg.png
+#   url: https://www.tfgco.com/
 
 - nome: Ex-Alunos do BCC
   img: /images/patrocinio/ex-alunos.png
