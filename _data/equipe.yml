@@ -1,19 +1,20 @@
+- nome: Vitor Silva
+  cargo: Divulgação
+  curso: Ciência da Computação
+  palestra1: Deep Learning
+  foto: vitor-silva.jpg
+
 - nome: Caio Andrade
   cargo: Site
   curso: Ciência da Computação
   palestra1: HPC e ML
   foto: caio-andrade.jpg
 
-- nome: Aurea Hariki
-  cargo: Site
-  curso: Ciência da Computação
-  foto: aurea-hariki.jpg
-
-- nome: Leonardo Lana
-  cargo: Site
+- nome: Andrei
+  cargo: Palestras
   curso: Ciência da Computação
   palestra1: Lógica Fuzzy e Jornalismo de Dados
-  foto: leonardo-lana.jpg
+  foto: andrei.jpg
 
 - nome: Beatriz Marouelli
   cargo: Burocracia
@@ -21,18 +22,16 @@
   palestra1: Computa
   foto: beatriz-marouelli.jpg
 
-- nome: Wander Souza
+- nome: Leandro Rodrigues
   cargo: Patrocínio
   curso: Ciência da Computação
-  palestra1: HPC e ML
-  foto: wander-souza.jpg
+  palestra1: Deep Learning
+  palestra2: Segurança da Informação
+  foto: leandro-rodrigues.jpg
 
-- nome: Victor Domiciano
-  cargo: Palestras
+- nome: André Solak
   curso: Ciência da Computação
-  palestra1: Lógica Fuzzy
-  palestra2: Jornalismo de Dados
-  foto: victor-domiciano.jpg
+  foto: andre-solak.jpg
 
 - nome: Giovanna Kobus
   cargo:
@@ -46,11 +45,42 @@
   palestra1: Lógica Fuzzy e Jornalismo de Dados
   foto: lucas-civile.jpg
 
-- nome: Andrei
+- nome: Victor Portella
+  cargo:
+  curso: Ciência da Computação
+  palestra1: Jornalismo de Dados
+  palestra3: Segurança da Informação
+  foto: victor-portella.jpg
+
+- nome: Aurea Hariki
+  cargo: Site
+  curso: Ciência da Computação
+  foto: aurea-hariki.jpg
+
+- nome: Erica Cope
+  cargo: Um Dia Na Computação
+  curso: Matemática
+  palestra1:
+  foto: erica-cope.jpg
+
+- nome: Victor Domiciano
   cargo: Palestras
   curso: Ciência da Computação
+  palestra1: Lógica Fuzzy
+  palestra2: Jornalismo de Dados
+  foto: victor-domiciano.jpg
+
+- nome: Leonardo Lana
+  cargo: Site
+  curso: Ciência da Computação
   palestra1: Lógica Fuzzy e Jornalismo de Dados
-  foto: andrei.jpg
+  foto: leonardo-lana.jpg
+
+- nome: Wander Souza
+  cargo: Patrocínio
+  curso: Ciência da Computação
+  palestra1: HPC e ML
+  foto: wander-souza.jpg
 
 - nome: Rodrigo Orem
   cargo: Site
@@ -59,28 +89,3 @@
   palestra2: Jornalismo de Dados
   foto: rodrigo-orem.jpg
 
-- nome: Vitor Silva
-  cargo: Divulgação
-  curso: Ciência da Computação
-  palestra1: Deep Learning
-  foto: vitor-silva.jpg
-
-- nome: Erica Cope
-  cargo: Um Dia Na Computação
-  curso: Matemática
-  palestra1:
-  foto: erica-cope.jpg
-
-- nome: Leandro Rodrigues
-  cargo: Patrocínio
-  curso: Ciência da Computação
-  palestra1: Deep Learning
-  palestra2: Segurança da Informação
-  foto: leandro-rodrigues.jpg
-
-- nome: Victor Portella
-  cargo:
-  curso: Ciência da Computação
-  palestra1: Jornalismo de Dados
-  palestra3: Segurança da Informação
-  foto: victor-portella.jpg
