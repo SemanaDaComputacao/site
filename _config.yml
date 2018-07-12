@@ -2,8 +2,9 @@ markdown: kramdown
 encoding: utf-8
 
 # Se estiver hospedado em `site.com`, deixe em branco.
-# Se estiver em `site.com/exemplo`, dexe `exemplo`.
-url_root: semana
+# Se estiver em `site.com/exemplo`, deixe `exemplo`.
+baseurl: /semana
+url: https://bcc.ime.usp.br/semana/
 
 sass:
   style: expanded
