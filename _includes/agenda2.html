@@ -1,0 +1,22 @@
+<div class="linha" style="flex-direction: columns">
+    <div>
+        <h3 style="font-size: 30px;">Segunda, 23 de agosto</h3>
+    </div>
+
+    {% for item in site.data.programacao.segunda %}
+        <div class="linha" style="display: flex;">
+            <div>
+                {%if forloop.index == 1 %}14:00 &mdash; 14:50{% endif %}
+                {%if forloop.index == 2 %}15:00 &mdash; 15:50{% endif %}
+                {%if forloop.index == 4 %}16:30 &mdash; 17:20{% endif %}
+                {%if forloop.index == 5 %}17:30 &mdash; 18:20{% endif %}
+            </div>
+
+            <div>
+                <span>{{item.nome}}</span>
+                <span>{{item.palestrante}}</span>
+            </div>
+        </div>
+    {% endfor %}
+
+</div>

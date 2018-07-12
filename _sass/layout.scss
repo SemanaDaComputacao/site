@@ -6,6 +6,10 @@ nav.navbar {
   }
 }
 
+p {
+  margin-bottom: 8px;
+}
+
 .navbar-item {
   color: $green !important;
   text-transform: uppercase;
@@ -95,5 +99,3 @@ footer {
     }
   }
 }
-
-

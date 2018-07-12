@@ -84,12 +84,12 @@ section.cover {
 
     .image-wrapper {
       position: relative;
-      background-image: url({{ site.baseurl }}/images/ime-fachada-700.jpg)
     }
 
     .image {
       width: 100%;
       height: 180px;
+      background-image: url($baseurl + "/images/ime-fachada-700.jpg");
       background-size: cover;
       background-position: center;
     }
@@ -140,7 +140,7 @@ section.cover {
   background: $background-on-blue;
   color: $black;
   margin: 20px 40px;
-  padding: 40px 0;
+  padding: 40px 20px;
 
   .heading {
     color: $green-darker;
