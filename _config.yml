@@ -3,7 +3,7 @@ encoding: utf-8
 
 # Se estiver hospedado em `site.com`, deixe em branco.
 # Se estiver em `site.com/exemplo`, dexe `exemplo`.
-url_root:
+url_root: semana
 
 sass:
   style: expanded
