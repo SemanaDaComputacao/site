@@ -28,7 +28,7 @@ include_menu: true
 							{% if item.url %}
 							<a href="{{ item.url }}" title="{{ item.nome }}">
 							{% endif %}
-								<img src="{{ site.baseurl }}/{{ item.img }}" alt="{{ item.nome }}">
+								<img src="{{ site.baseurl }}{{ item.img }}" alt="{{ item.nome }}">
 							{% if item.url %}
 							</a>
 							{% endif %}
