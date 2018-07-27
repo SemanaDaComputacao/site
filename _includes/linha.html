@@ -3,12 +3,16 @@
         {% if include.palestra == 'Coffee Break' %}
             <span>{{include.palestra}}</span>
         {% else %}
-            <a href="#">
+            {% if include.palestra.link %}
+            <a href="{{site.baseurl}}/palestra/{{include.palestra.link}}">
+            {% endif %}
                 <div>
                     {{ include.palestra.nome }}<br>
                     <span class="palestrante">{{ include.palestra.palestrante }}</span>
                 </div>
+            {% if include.palestra.link %}
             </a>
+            {% endif %}
         {% endif %}
     {% else %}
         <span class="embreve">Em breve</span>

@@ -1,6 +1,7 @@
 segunda:
     - nome: Computação Quântica
       palestrante: Carlos Cardonha
+      link: computacao-quantica
     - nome: Blockchain
       palestrante: IBM Blockchain Research
     - Coffee Break
@@ -8,37 +9,47 @@ segunda:
       palestrante: VTEX
     - nome: Machine Learning
       palestrante: NVIDIA
+      link: machine-learning
 
 terca:
     - false
     - nome: Lógica Fuzzy
+      link: logica-fuzzy
       palestrante: Pedro Tonelli
     - Coffee Break
     - false
-    - nome: Segurança da Informação
+    - nome: Cybersegurança
       palestrante: Marcos
+      link: cyberseguranca
 
 quarta:
     - nome: Quebra da Lei de Moore
       palestrante: Aleardo Manaciero
     - nome: Algoritmos Evolutivos
+      link: algoritmos-evolutivos
       palestrante: Fernando Von Zuben
     - Coffee Break
     - nome: Jornalismo de Dados
       palestrante: Natália Mazotte
+      link: jornalismo-de-dados
     - nome: High Perfomancing Computing
       palestrante: NVIDIA
+      link: high-performing-computing
 
 quinta:
     - nome: Deep Learning
       palestrante: Finger
+      link: deep-learning
     - nome: Dívida Técnica
       palestrante: Graziela Tonin
+      link: divida-tecnica
     - Coffee Break
-    - nome: UX/UI
-      palestrante: Giselle
+    - nome: User Experience
+      palestrante: Giselle Beiguelman
+      link: user-experience
     - nome: Geração Procedural em Jogos
       palestrante: André Siqueira Ruela
+      link: geracao-procedural-em-jogos
 
 sexta:
     - nome: Stands de Empresas

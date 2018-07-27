@@ -3,78 +3,79 @@ include_menu: true
 ---
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>X Semana da Computação</title>
-		<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Inconsolata|Roboto+Mono|Source+Code+Pro|Space+Mono|Lato:300,400,700" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Décima edição da Semana da Computação do IME-USP">
+        <title>X Semana da Computação</title>
+        <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Inconsolata|Roboto+Mono|Source+Code+Pro|Space+Mono|Lato:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
-		<link href="css/main.css" rel="stylesheet">
-	</head>
-	<body>
-		{%if page.include_menu != false %}{% include menu.html %}{% endif %}
+        <link href="{{ page.baseurl }}/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        {%if page.include_menu != false %}{% include menu.html %}{% endif %}
 
-		{{content}}
+        {{content}}
 
-		<footer class="footer">
-			<div class="container content">
-				<h3 class="has-text-left">Patrocínio</h3>
-				<div class="images">
-					<div class="columns is-multiline">
-						{% for item in site.data.patrocinio %}
-						<div class="column is-narrow is-4">
-							{% if item.url %}
-							<a href="{{ item.url }}" title="{{ item.nome }}">
-							{% endif %}
-								<img src="{{ site.baseurl }}{{ item.img }}" alt="{{ item.nome }}">
-							{% if item.url %}
-							</a>
-							{% endif %}
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-			</div>
+        <footer class="footer">
+            <div class="container content">
+                <h3 class="has-text-left">Patrocínio</h3>
+                <div class="images">
+                    <div class="columns is-multiline">
+                        {% for item in site.data.patrocinio %}
+                        <div class="column is-narrow is-4">
+                            {% if item.url %}
+                            <a href="{{ item.url }}" title="{{ item.nome }}">
+                            {% endif %}
+                                <img src="{{ site.baseurl }}/{{ item.img }}" alt="{{ item.nome }}">
+                            {% if item.url %}
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
 
-			<div class="container content">
-				<h3 class="has-text-left">Apoio</h3>
-				<div class="images apoio">
-					<div class="columns is-multiline">
-						<div class="column is-narrow">
-							<a href="http://bcc.ime.usp.br/" title="Bacharelado em Ciência da Computação"><img src="{{ site.baseurl }}/images/apoio/bcc.png" alt="BCC"></a>
-						</div>
-						<div class="column is-narrow">
-							<a href="http://ime.usp.br/" title="IME-USP"><img src="{{ site.baseurl }}/images/apoio/ime.png" alt="IME"></a>
-						</div>
-					</div>
-				</div>
-			</div>
+            <div class="container content">
+                <h3 class="has-text-left">Apoio</h3>
+                <div class="images apoio">
+                    <div class="columns is-multiline">
+                        <div class="column is-narrow">
+                            <a href="http://bcc.ime.usp.br/" title="Bacharelado em Ciência da Computação"><img src="{{ site.baseurl }}/images/apoio/bcc.png" alt="BCC"></a>
+                        </div>
+                        <div class="column is-narrow">
+                            <a href="http://ime.usp.br/" title="IME-USP"><img src="{{ site.baseurl }}/images/apoio/ime.png" alt="IME"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<hr>
+            <hr>
 
-			<div class="container content has-text-centered">
+            <div class="container content has-text-centered">
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FEncontroBCC%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=1413861528942191" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-				<p>
-					<strong>Edições anteriores</strong><br>
-					<a href="http://www.ime.usp.br/~encontrobcc/2010/">II 2010</a> &middot;
-					<a href="http://www.ime.usp.br/~encontrobcc/2011/">III 2011</a> &middot;
-					<a href="http://www.ime.usp.br/~encontrobcc/2012/">IV 2012</a> &middot;
-					<a href="http://www.ime.usp.br/~encontrobcc/2013/">V 2013</a> &middot;
-					<a href="http://bcc.ime.usp.br/40anos/">VI 2014</a> &middot;
-					<a href="http://bcc.ime.usp.br/encontro/2015">VII 2015</a> &middot;
-					<a href="http://bcc.ime.usp.br/encontro/2016/#/">VIII 2016</a> &middot;
-					<a href="https://bcc.ime.usp.br/encontro/">IV 2017</a>
-				</p>
+                <p>
+                    <strong>Edições anteriores</strong><br>
+                    <a href="http://www.ime.usp.br/~encontrobcc/2010/">II 2010</a> &middot;
+                    <a href="http://www.ime.usp.br/~encontrobcc/2011/">III 2011</a> &middot;
+                    <a href="http://www.ime.usp.br/~encontrobcc/2012/">IV 2012</a> &middot;
+                    <a href="http://www.ime.usp.br/~encontrobcc/2013/">V 2013</a> &middot;
+                    <a href="http://bcc.ime.usp.br/40anos/">VI 2014</a> &middot;
+                    <a href="http://bcc.ime.usp.br/encontro/2015">VII 2015</a> &middot;
+                    <a href="http://bcc.ime.usp.br/encontro/2016/#/">VIII 2016</a> &middot;
+                    <a href="https://bcc.ime.usp.br/encontro/2017">IV 2017</a>
+                </p>
 
-				<p><strong>Semana da Computação &copy; 2018</strong><br></p>
-				<p>
-					O <a href="https://github.com/semanadacomputacao/site">código-fonte desse site</a> é distribuído sob a licença MIT. O conteúdo é distribuído sob a licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>. Ícones desenvolvidos pela <a href="http://www.freepik.com/">Freepik</a> de <a href="https://www.flaticon.com">www.flaticon.com</a>.
-				</p>
-			</div>
-		</footer>
+                <p><strong>Semana da Computação &copy; 2018</strong><br></p>
+                <p>
+                    O <a href="https://github.com/semanadacomputacao/site">código-fonte desse site</a> é distribuído sob a licença MIT. O conteúdo é distribuído sob a licença <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>. Ícones desenvolvidos pela <a href="http://www.freepik.com/">Freepik</a> de <a href="https://www.flaticon.com">www.flaticon.com</a>.
+                </p>
+            </div>
+        </footer>
 
-		<script src="main.js"></script>
-	</body>
+        <script src="{{page.baseurl}}/main.js"></script>
+    </body>
 </html>

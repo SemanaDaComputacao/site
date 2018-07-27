@@ -1,9 +1,9 @@
 - nome: NVIDIA
-  img: /images/patrocinio/nvidia.png
+  img: images/patrocinio/nvidia.png
   url: https://www.nvidia.com.br/
 
 - nome: Ewally
-  img: /images/patrocinio/ewally.png
+  img: images/patrocinio/ewally.png
   url: https://www.ewally.com.br/
 
 # - nome: PagSeguro
@@ -11,17 +11,17 @@
 #   url: https://pagseguro.uol.com.br/
 
 - nome: VTEX
-  img: /images/patrocinio/vtex.png
+  img: images/patrocinio/vtex.png
   url: https://www.vtex.com/pt-br/
 
 - nome: TFG
-  img: /images/patrocinio/tfg.png
+  img: images/patrocinio/tfg.png
   url: https://www.tfgco.com/
 
 # - nome: IBM
-#   img: /images/patrocinio/ibm.png
+#   img: images/patrocinio/ibm.png
 #   url: https://www.ibm.com/
 
 - nome: Ex-Alunos do BCC
-  img: /images/patrocinio/ex-alunos.png
+  img: images/patrocinio/ex-alunos.png
   url:

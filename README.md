@@ -20,7 +20,7 @@ Deploy
 ======
 O site é hospedado em um site com subcaminho, do tipo `site.com/example`, enquanto no ambiente de desenvolvimento ele fica sem o subcaminho (`localhost/`).
 
-O subcaminho é especificado em `baseurl`, no arquivo `_config.yml`. Os links precisam fazer referência a tal subcaminho, se existir, por isso sempre precedemos os links com `{{ site.baseurl }}`.
+O subcaminho é especificado em `baseurl`, no arquivo `_config.yml`. Os links precisam fazer referência a tal subcaminho, se existir, por isso sempre precedemos os links com `{{ site.baseurl }}/`.
 
 Há dois arquivos de configuração: `_config.yml` e `_config-deploy.yml`. Por padrão, é usado o `_config.yml`, mas para hospedar o site num sub-caminho, podemos sobrescrever a variável `baseurl` com o `_config-deploy.yml`. Para fazer o build do deployment, podemos fazer assim:
 
