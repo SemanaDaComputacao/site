@@ -151,7 +151,7 @@ h1.chip {
 }
 
 .footer-circuit {
-  background: url(/images/circuito.png);
+  background: url($baseurl + '/images/circuito.png');
   background-repeat: repeat-x;
   background-size: contain;
   background-position: bottom;
