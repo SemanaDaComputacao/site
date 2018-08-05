@@ -1,0 +1,95 @@
+.lecture {
+  .container {
+    max-width: 960px;
+    padding-top: 30px;
+    font-family: Lato;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p.title, p.subtitle {
+      color: $white;
+    }
+
+    .lecture-subtitle {
+      & > span {
+        margin-right: 20px;
+        white-space: nowrap;
+      }
+    }
+
+    div.title {
+      color: $white;
+    }
+
+    .lecture-details {
+      margin-top: 40px;
+
+      & > div {
+        display: flex;
+        margin-bottom: 20px;
+
+        @include until($tablet) {
+          flex-direction: column;
+        }
+
+        & > .title {
+          flex-basis: 25%;
+          font-size: 28px;
+          font-weight: 400;
+        }
+        & > .content {
+          flex-basis: 75%;
+
+          .media {
+            @include until($tablet) {
+              flex-direction: column;
+
+              .media-left, .media-left .image {
+                margin-right: 0;
+              }
+
+              .media-content {
+                text-align: center;
+              }
+            }
+
+            align-items: center;
+            margin-bottom: 20px;
+          }
+
+          figure {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .schedule {
+    display: none;
+    font-family: Lato;
+
+    @include until($tablet) {
+      display: block;
+    }
+  }
+
+  .schedule-tabular {
+    display: none;
+
+    @include from($tablet) {
+      display: block;
+    }
+  }
+
+  h1.chip {
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    @include from($tablet) {
+      display: none;
+    }
+  }
+}

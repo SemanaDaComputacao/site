@@ -19,11 +19,11 @@ include_menu: false
 
 		</div>
 	    <div class="hero-foot">
-			<img src="{{ site.baseurl }}/images/icons/down-chevron.png" class="chevron" style="width: 38px; height: 19px">
+			<a href="#palestras"><img src="{{ site.baseurl }}/images/icons/down-chevron.png" class="chevron" style="width: 38px; height: 19px"></a>
 		</div>
 	</section>
 
-	<nav class="features columns">
+	<section class="features columns" id="palestras">
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
@@ -51,13 +51,13 @@ include_menu: false
 				<p class="description">Oferecemos comes e bebes para todos os participantes do evento como cortesia</p>
 			</div>
 		</div>
-	</nav>
+	</section>
 
 	<div class="section container description">
 		<div class="columns is-centered">
 			<div class="column is-10">
-				<p>Bem vindos a mais uma edição da <strong>Semana da Computação</strong>! O evento, gratuito e aberto, chega em 2018 na sua décima edição com muito conteúdo e algumas novidades exclusivas.</p>
-				<p>Serão <strong>16 palestras</strong> sobre os mais diversos temas da computação. Essa é uma grande oportunidade de conhecer os caminhos da carreira com <strong>especialistas nacionais e internacionais</strong>.</p>
+				<p>Bem vindos a mais uma edição da <strong>Semana da Computação</strong>! O evento, gratuito e aberto, chega em 2018 na sua décima edição com muito conteúdo e novidades exclusivas.</p>
+				<p>Serão <strong>16 palestras</strong> sobre os mais diversos temas da computação. Essa é uma grande oportunidade de conhecer os caminhos da carreira com <strong>especialistas de todo o Brasil</strong>.</p>
 				<p>Nesse ano, também contaremos com um dia especial dedicado a alunos do Ensino Médio: o evento <strong>Um Dia Na Computação</strong> irá permitir que jovens comparem cursos parecidos da computação e façam um tour pelo IME-USP.</p>
 				<p>No último dia do evento, haverá <strong>stands de recrutamento</strong> das melhores empresas de tecnologia com atuação no Brasil. Se você está se formando, procurando estágio ou apenas quer conhecer o mercado, não pode ficar de fora dessa.</p>
 			</div>
@@ -67,24 +67,23 @@ include_menu: false
 	<hr>
 
 	<div class="section container" id="agenda">
-		<h1 class="title has-text-centered">Agenda</h1>
-		<!--{% include agenda2.html %}-->
-		{% include agenda.html %}
+		<h1 class="title has-text-centered chip">Agenda</h1>
+		{% include agenda2.html %}
 	</div>
 
 	<hr>
 
 	<div class="section container" id="umdianacomputacao">
-		<h1 class="title has-text-centered">Um Dia Na Computação</h1>
+		<h1 class="title has-text-centered chip">Um Dia Na Computação</h1>
 		<div class="columns is-centered">
 			<div class="column is-10">
 				<p>No dia 17 de agosto, teremos um dia dedicado à alunos do Ensino Médio e vestibulandos: o evento <strong>Um Dia Na Computação</strong> irá permitir que jovens comparem cursos parecidos da computação e façam um tour pelo IME-USP.</p>
-				<p>Estarão presentes alunos de Sistemas de Informação, Engenharia da Computação e Ciência da Computação. Assim o estudante indeciso poderá conhecer mais a fundo os diferentes cursos e, com um panorama, ter melhores condições de escolher sua graduação.</p>
+				<p>Estarão presentes alunos de Sistemas de Informação, Engenharia da Computação e Ciência da Computação. Assim, o estudante indeciso poderá conhecer mais a fundo os diferentes cursos e, com um panorama, ter melhores condições de escolher sua graduação.</p>
 				<p>Serão apresentados também os <a href="https://bcc.ime.usp.br/principal/miscelanea/gruposExtensao.html">grupos de extensão</a> do IME-USP, organizados por alunos que estudam diversos temas da computação como desenvolvimento web, desenvolvimento de jogos, segurança, hardware, ação social e programação competitiva.</p>
 				<p>Finalmente teremos uma roda de bate-papo para sanar as dúvidas dos estudantes e apresentá-los ao curso de maneira mais próxima.</p>
 				<br>
 				<div class="has-text-centered">
-					<a class="button is-primary is-text-centered" href="#">INSCREVA-SE</a>
+					<a class="button is-primary is-text-centered" href="https://docs.google.com/a/usp.br/forms/d/1vLxKflqntxYpfwfzRnVMnMlr8Pel_5YoJVwcN_jPHf8">INSCREVA-SE</a>
 				</div>
 			</div>
 		</div>
@@ -95,8 +94,9 @@ include_menu: false
 	<div class="section container" id="local">
 		<div class="columns is-centered">
 			<div class="column is-10">
-				<h1 class="title has-text-centered">Localização</h1>
-				<p>A Semana da Computação ocorrerá no Instituto de Matemática e Estatística da Universidade de São Paulo, localizado na Cidade Universitária, Butantã, São Paulo. As palestras serão realizadas no auditório Jacy Monteiro no Bloco B.</p>
+				<h1 class="title has-text-centered chip">Local</h1>
+				<p>A Semana da Computação ocorrerá no IME-USP, localizado na Cidade Universitária, Butantã, São Paulo.</p>
+				<p>As palestras serão realizadas no auditório <strong>Jacy Monteiro</strong> no <strong>Bloco B</strong>.</p>
 			</div>
 		</div>
 
@@ -116,8 +116,8 @@ include_menu: false
 					<div class="column is-full">
 						<h3>Ônibus</h3>
 						<ul>
-							<li><a href="#">Trajeto dos circulares 8012 e 8022</a></li>
-							<li><a href="#">Mapa do Campus</a></li>
+							<li><a href="https://www.ime.usp.br/images/arquivos/imagens/itinerarios.pdf">Trajeto dos circulares 8012 e 8022</a></li>
+							<li><a href="https://www.ime.usp.br/images/arquivos/imagens/cidadeuniversitaria.pdf">Mapa do Campus</a></li>
 						</ul>
 					</div>
 
@@ -134,5 +134,9 @@ include_menu: false
 			</div>
 			<iframe frameborder="0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=-23.5595,-46.7313&key=AIzaSyDD00St30hKE871UdplT4ZRvQNFoG6TvYo" allowfullscreen></iframe>
 		</div>
+
 	</div>
+	<div class="footer-circuit">
 </div>
+
+

@@ -7,5 +7,9 @@ summary: >
 bio: >
     É professor associado (nível MS-5) junto ao departamento de Engenharia de Computação e Sistemas Digitais da Escola Politécnica, Universidade de São Paulo. Atua em projetos relacionados com cyber-segurança desde 2007, cobrindo aspectos de projeto e análise de primitivas de segurança, protocolos seguros e sistemas de segurança de uma forma geral.
 speaker: Marcos Simplício
+affiliation: Escola Politécnica - USP
+occupation: Professor Associado
+date: Terça-feira, 21 de agosto
+time: 14:00 - 14:50
 picture: Marcos Simplicio.jpg
 ---

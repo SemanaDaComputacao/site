@@ -7,5 +7,9 @@ summary: >
 bio: >
     Baiano de Salvador, Daniel Macêdo Batista é doutor em ciência da computação pela Unicamp e desde 2011 é professor no Departamento de Ciência da Computação do IME/USP, onde orienta trabalhos na área de redes de computadores e leciona diversas disciplinas para a graduação e para a pós-graduação. No momento seus principais tópicos de pesquisa são redes 5G, cidades inteligentes, segurança da informação e redes definidas por software.
 speaker: Daniel Batista
-picture: Daniel Batista.png
+picture: Daniel Batista.jpg
+affiliation: Insituto de Matemática e Estatística - USP 
+occupation: Professor Associado
+date: Segunda-feira, 20 de agosto
+time: 15:00 - 15:50
 ---

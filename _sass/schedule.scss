@@ -1,0 +1,94 @@
+.agenda-tabular {
+  font-family: Lato;
+  overflow-x: auto;
+
+  table {
+    background-color: $background-on-blue;
+    margin: auto;
+    td, th {
+      text-align: center;
+      border-color: #c7dbec;
+    }
+    th {
+      color: $green-darker;
+    }
+  }
+
+  .palestrante {
+    font-size: 12px;
+  }
+
+  .embreve {
+    font-style: italic;
+    color: #666;
+  }
+
+  a {
+    text-decoration: none;
+    color: $link-light-bg;
+    &:hover {
+      color: $link-alt-bg-hover;
+    }
+  }
+}
+
+.agenda {
+  font-family: Inconsolata;
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+
+    @include until($mobile) {
+      flex-direction: column;
+    }
+  }
+
+  .title {
+    color: $green;
+    flex-basis: 40%;
+    margin-right: 20px;
+    text-align: right;
+
+    .comma {
+      display: none;
+    }
+
+    @include until($mobile) {
+      text-align: left;
+      margin-bottom: 10px;
+
+      .comma {
+        display: inline;
+      }
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .lectures {
+    flex-basis: 60%;
+
+    a {
+      text-decoration: none;
+    }
+
+    .linha {
+      display: flex;
+      line-height: 1;
+      margin-bottom: 14px;
+      color: $green;
+      text-decoration: none;
+
+      .lecture {
+        font-size: 25px;
+        color: $white;
+      }
+
+      .time {
+        margin-right: 10px;
+        margin-top: 3px;
+      }
+    }
+  }
+}

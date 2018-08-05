@@ -26,7 +26,8 @@
 
 - name: Jornalismo de Dados
   palestrante: Natália Mazotte
-  afiliacao: Open Knowledge
+  cargo: Diretora Executiva
+  afiliacao: Open Knowledge Brasil
   link: jornalismo-de-dados.md
 
 - name: High Perfomancing Computing

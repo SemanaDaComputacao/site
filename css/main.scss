@@ -9,3 +9,5 @@ $baseurl: "{{ site.baseurl }}";
 @import "layout";
 @import "home";
 @import "equipe";
+@import "schedule";
+@import "lecture";

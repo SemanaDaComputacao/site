@@ -7,5 +7,9 @@ summary: >
 bio: >
     Natália Mazotte é diretora-executiva da Open Knowledge Brasil, onde lidera projetos como a Conferência Brasileira de Jornalismo de Dados e a Escola de Dados. Co-fundou e dirigiu a Gênero e Número, primeira iniciativa de jornalismo de dados com foco em gênero da América Latina, e a agência digital J++. Mestre em Comunicação e Cultura pela UFRJ e pós-graduada em Estratégia Digital pela Pompeu Fabra de Barcelona, dá aulas na PUC-RS e coordena os cursos online em português do Knight Center, da Universidade do Texas.
 speaker: Natália Mazotte
+affiliation: Open Knowledge Brasil
+occupation: Diretora-executiva
+date: Quarta-feira, 22 de agosto
+time: 16:30 - 17:20
 picture: Natália Mazotte.jpg
 ---

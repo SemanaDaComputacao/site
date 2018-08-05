@@ -1,54 +1,56 @@
 segunda:
     - nome: Computação Quântica
-      palestrante: Carlos Cardonha
+      palestrante: Carlos Cardonha (IBM)
       link: computacao-quantica
-    - nome: Blockchain
-      palestrante: IBM Blockchain Research
+    - nome: Redes e P2P
+      palestrante: Daniel Batista (IME-USP)
+      link: redes-e-p2p
     - Coffee Break
     - nome: Banco de Dados Chave-Valor
-      palestrante: VTEX
+      palestrante: Igleson Freire (VTEX)
+      link: chronus-storage
     - nome: Machine Learning
-      palestrante: NVIDIA
+      palestrante: João Paulo Navarro (NVIDIA)
       link: machine-learning
 
 terca:
-    - false
+    - nome: Cybersegurança
+      palestrante: Marcos Simplício (POLI-USP)
+      link: cyberseguranca
     - nome: Lógica Fuzzy
       link: logica-fuzzy
-      palestrante: Pedro Tonelli
+      palestrante: Pedro Tonelli (IME-USP)
     - Coffee Break
+    - nome: Blockchain
+      palestrante: Percival Lucena (IBM)
     - false
-    - nome: Cybersegurança
-      palestrante: Marcos
-      link: cyberseguranca
 
 quarta:
-    - nome: Quebra da Lei de Moore
-      palestrante: Aleardo Manaciero
+    - nome: Lei de Moore
+      palestrante: Aleardo Manaciero (UNESP)
+      link: lei-de-moore
     - nome: Algoritmos Evolutivos
       link: algoritmos-evolutivos
-      palestrante: Fernando Von Zuben
+      palestrante: Fernando Von Zuben (UNICAMP)
     - Coffee Break
     - nome: Jornalismo de Dados
-      palestrante: Natália Mazotte
+      palestrante: Natália Mazotte (OKBr)
       link: jornalismo-de-dados
-    - nome: High Perfomancing Computing
-      palestrante: NVIDIA
-      link: high-performing-computing
+    - false
 
 quinta:
     - nome: Deep Learning
-      palestrante: Finger
+      palestrante: Marcelo Finger (IME-USP)
       link: deep-learning
     - nome: Dívida Técnica
-      palestrante: Graziela Tonin
+      palestrante: Graziela Tonin (UFFS)
       link: divida-tecnica
     - Coffee Break
     - nome: User Experience
-      palestrante: Giselle Beiguelman
+      palestrante: Giselle Beiguelman (FAUUSP)
       link: user-experience
     - nome: Geração Procedural em Jogos
-      palestrante: André Siqueira Ruela
+      palestrante: André Siqueira Ruela (EACH-USP)
       link: geracao-procedural-em-jogos
 
 sexta:

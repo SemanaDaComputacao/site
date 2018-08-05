@@ -1,22 +1,49 @@
-<div class="linha" style="flex-direction: columns">
-    <div>
-        <h3 style="font-size: 30px;">Segunda, 23 de agosto</h3>
-    </div>
+<div class="agenda">
+{% for dia in site.data.programacao %}
+    <div class="row">
 
-    {% for item in site.data.programacao.segunda %}
-        <div class="linha" style="display: flex;">
-            <div>
-                {%if forloop.index == 1 %}14:00 &mdash; 14:50{% endif %}
-                {%if forloop.index == 2 %}15:00 &mdash; 15:50{% endif %}
-                {%if forloop.index == 4 %}16:30 &mdash; 17:20{% endif %}
-                {%if forloop.index == 5 %}17:30 &mdash; 18:20{% endif %}
-            </div>
-
-            <div>
-                <span>{{item.nome}}</span>
-                <span>{{item.palestrante}}</span>
-            </div>
+        <div class="title">
+            <h3 style="font-size: 30px;">
+                {%if forloop.index == 1 %}Segunda<span class="comma">, </span><br>20{% endif %}
+                {%if forloop.index == 2 %}Terça<span class="comma">, </span><br>21{% endif %}
+                {%if forloop.index == 3 %}Quarta<span class="comma">, </span><br>22{% endif %}
+                {%if forloop.index == 4 %}Quinta<span class="comma">, </span><br>23{% endif %}
+                {%if forloop.index == 5 %}Sexta<span class="comma">, </span><br>24{% endif %}
+                de agosto
+            </h3>
         </div>
-    {% endfor %}
 
+        <div class="lectures">
+            {% for item in dia[1] %}
+                    {% if item.link %}
+                    <a href="{{site.baseurl}}/palestra/{{item.link}}">
+                    {% endif %}
+                        <div class="linha">
+                            <div class="time">
+                                {%if forloop.index == 1 %}14:00 <br> 14:50{% endif %}
+                                {%if forloop.index == 2 %}15:00 <br> 15:50{% endif %}
+                                {%if forloop.index == 3 %}<div style="visibility: hidden">15:50 <br> 16:30</div>{% endif %}
+                                {%if forloop.index == 4 %}16:30 <br> 17:20{% endif %}
+                                {%if forloop.index == 5 %}17:30 <br> 18:20{% endif %}
+                            </div>
+
+                            <div>
+                                {% if item == false %}
+                                    <em>Em breve</em>
+                                {% elsif item == 'Coffee Break' %}
+                                    <span class="lecture">Coffee Break</span>
+                                {% else %}
+                                    <span class="lecture">{{item.nome}}</span><br>
+                                    <span class="speaker">{{item.palestrante}}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% if item.link %}
+                    </a>
+                    {% endif %}
+            {% endfor %}
+        </div>
+
+    </div>
+{% endfor %}
 </div>

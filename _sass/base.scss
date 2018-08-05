@@ -1,5 +1,5 @@
 // Set your brand colors
-$green: #66cc66;
+$green: #62d462;
 $green-lighter: #8dd48d;
 $green-darker: #198019;
 $blue: #183F63;
@@ -9,7 +9,7 @@ $background-on-blue: #B2CDE3;
 //$brown: #757763;
 //$beige-light: #D0D1CD;
 //$beige-lighter: #EFF0EB;
-$white: #fff;
+$white: #e2f1ff;
 $white-darker: #aaa;
 $black: #000;
 
@@ -28,8 +28,15 @@ h1.title,h2.title,h3.title,h4.title,h5.title,h6.title {
 $text: $green;
 $text-strong: $green;
 
-$link: #0085FF;
+$link: #81C3FF;
+$link-hover: #fff;
 $navbar-background-color: $primary;
+
+$link-light-bg: #0085FF;
+$link-light-bg-hover: #81C3FF;
+$link-alt-bg-hover: #025DB0;
 
 //$title-color: $white;
 //$subtitle-color: #ddd;
+
+$mobile: 480px !default

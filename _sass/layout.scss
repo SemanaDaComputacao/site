@@ -10,9 +10,24 @@ p {
   margin-bottom: 8px;
 }
 
-.navbar-item {
-  color: $green !important;
+nav.navbar a.navbar-item {
+  color: $green;
   text-transform: uppercase;
+  text-decoration: none;
+
+  img {
+    max-height: 2.3rem;
+  }
+}
+
+div#navMenu {
+  .navbar-item:hover,
+  .navbar-item.is-active,
+  .navbar-link:hover,
+  .navbar-link.is-active {
+    background-color: #ddeefc;
+    color: #000;
+  }
 }
 
 .summary p {
@@ -26,34 +41,17 @@ p {
   }
 }
 
-.agenda {
-  overflow-x: auto;
-
-  table {
-    background-color: $background-on-blue;
-    margin: auto;
-    td, th {
-      text-align: center;
-      border-color: #c7dbec;
-    }
-    th {
-      color: $green-darker;
-    }
-  }
-
-  .palestrante {
-    font-size: 12px;
-  }
-
-  .embreve {
-    font-style: italic;
-    color: #666;
-  }
-}
-
 footer {
   background-color: #efefef !important;
   color: $black;
+
+  a {
+    color: $link-light-bg;
+
+    &:hover {
+      color: $link-light-bg-hover;
+    }
+  }
 
   hr {
     background-color: #e1e1e1 !important;
@@ -98,4 +96,67 @@ footer {
       height: 70px;
     }
   }
+}
+
+a {
+  text-decoration: underline;
+
+  &.button {
+    text-decoration: none;
+    font-family: Lato;
+  }
+}
+
+h1.chip {
+  position: relative;
+  background: #1E2B36;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: table;
+  padding: 10px;
+
+  @media (max-width: 480px) {
+    max-width: 200px;
+  }
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    background-image: url($baseurl + "/images/circuit-l.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    top: 5px;
+    left: -80px;
+    width: 80px;
+    height: 100%;
+  }
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    background-image: url('/images/circuit-r.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    top: 5px;
+    width: 80px;
+    right: -80px;
+    height: 100%;
+  }
+}
+
+.footer-circuit {
+  background: url(/images/circuito.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: bottom;
+
+  height: 80px;
+  width: 100%;
+  margin-top: 40px;
 }
