@@ -43,11 +43,16 @@
           flex-basis: 75%;
 
           .media {
+            .media-left {
+              margin-right: 0;
+            }
+
             @include until($tablet) {
               flex-direction: column;
 
               .media-left, .media-left .image {
                 margin-right: 0;
+                margin-bottom: 5px;
               }
 
               .media-content {

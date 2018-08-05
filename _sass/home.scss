@@ -7,7 +7,7 @@ div.body {
   }
 }
 
-section.cover {
+.cover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010b1c+0,11369f+55 */
   background: #010b1c; /* Old browsers */
   background: url($baseurl + "/images/graph.png"), -moz-linear-gradient(top, #010b1c 60%, $blue 100%); /* FF3.6-15 */
@@ -47,6 +47,10 @@ section.cover {
     flex-direction: column;
     //padding-bottom: 15rem;
     //padding-top: 11rem;
+
+    h1 {
+      color: #ddd;
+    }
   }
 }
 
@@ -67,7 +71,7 @@ section.cover {
     color: $link-light-bg;
   }
 
-  iframe {
+  #map {
     width: 100%;
     height: 630px;
 
@@ -86,6 +90,7 @@ section.cover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
     border-radius: 2px;
     color: #565A5C;
+	z-index: 2;
 
     @include until($tablet) {
       position: relative;

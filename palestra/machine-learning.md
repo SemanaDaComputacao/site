@@ -9,7 +9,7 @@ bio: >
 speaker: João Paulo Navarro
 occupation: Arquiteto de Soluções
 affiliation: NVIDIA
-picture: João Paulo Navarro.jpg
+picture: Jo%C3%A3o%20Paulo%20Navarro.jpg
 date: Segunda-feira, 20 de agosto
 time: 17:30 - 18:20
 ---

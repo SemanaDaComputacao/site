@@ -2,12 +2,12 @@
 include_menu: true
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Décima edição da Semana da Computação do IME-USP">
-        <title>X Semana da Computação</title>
+        <title>{% if page.title %}{{ page.title | strip }} - {% endif %}X Semana da Computação</title>
         <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Inconsolata|Roboto+Mono|Source+Code+Pro|Space+Mono|Lato:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
@@ -21,7 +21,7 @@ include_menu: true
 
         <footer class="footer">
             <div class="container content">
-                <h3 class="has-text-left">Patrocínio</h3>
+                <h2 class="has-text-left">Patrocínio</h3>
                 <div class="images">
                     <div class="columns is-multiline">
                         {% for item in site.data.patrocinio %}
@@ -40,7 +40,7 @@ include_menu: true
             </div>
 
             <div class="container content">
-                <h3 class="has-text-left">Apoio</h3>
+                <h2 class="has-text-left">Apoio</h3>
                 <div class="images apoio">
                     <div class="columns is-multiline">
                         <div class="column is-narrow">

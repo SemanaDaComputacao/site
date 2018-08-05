@@ -3,14 +3,12 @@ layout: base
 include_menu: false
 ---
 <div class="body">
-	<section class="hero cover is-fullheight">
+	<div class="hero cover is-fullheight">
 		<div class="hero-head">
 			{% include menu.html %}
 		</div>
 		<div class="hero-body">
-			<p class="title">
-				Semana da Computação
-			</p>
+			<h1 class="title">Semana da Computação</h1>
 			<p class="subtitle">
 				<span>{{ site.data.info.edicao }} edição | IME-USP</span><br>
 				<span>{{ site.data.info.periodo }}</span>
@@ -19,41 +17,41 @@ include_menu: false
 
 		</div>
 	    <div class="hero-foot">
-			<a href="#palestras"><img src="{{ site.baseurl }}/images/icons/down-chevron.png" class="chevron" style="width: 38px; height: 19px"></a>
+			<a href="#palestras"><img src="{{ site.baseurl }}/images/icons/down-chevron.png" class="chevron" style="width: 38px; height: 19px" alt="Ver mais"></a>
 		</div>
-	</section>
+	</div>
 
-	<section class="features columns" id="palestras">
+	<div class="features columns" id="palestras">
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
-					<img src="{{ site.baseurl }}/images/icons/presentation.png" alt="">
+					<img src="{{ site.baseurl }}/images/icons/presentation.png" alt="Palestras">
 				</p>
-				<p class="heading">Palestras</p>
+				<h2 class="heading">Palestras</h2>
 				<p class="description">Mais de 10 horas de conteúdo sobre diversas áreas da computação</p>
 			</div>
 		</div>
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
-					<img src="{{ site.baseurl }}/images/icons/fair-stand.png" alt="">
+					<img src="{{ site.baseurl }}/images/icons/fair-stand.png" alt="Stands de Empresas">
 				</p>
-				<p class="heading">Stands de Empresas</p>
+				<h2 class="heading">Stands de Empresas</h2>
 				<p class="description">Não perca a oportunidade de ter acesso ao recrutamento das melhores empresas de tecnologia</p>
 			</div>
 		</div>
 		<div class="column has-text-centered ">
 			<div>
 				<p class="title">
-					<img src="{{ site.baseurl }}/images/icons/coffee-cup.png" alt="">
+					<img src="{{ site.baseurl }}/images/icons/coffee-cup.png" alt="Coffee Breaks">
 				</p>
-				<p class="heading">Coffee Breaks</p>
+				<h2 class="heading">Coffee Breaks</h2>
 				<p class="description">Oferecemos comes e bebes para todos os participantes do evento como cortesia</p>
 			</div>
 		</div>
-	</section>
+	</div>
 
-	<div class="section container description">
+	<main class="section container description">
 		<div class="columns is-centered">
 			<div class="column is-10">
 				<p>Bem vindos a mais uma edição da <strong>Semana da Computação</strong>! O evento, gratuito e aberto, chega em 2018 na sua décima edição com muito conteúdo e novidades exclusivas.</p>
@@ -62,18 +60,18 @@ include_menu: false
 				<p>No último dia do evento, haverá <strong>stands de recrutamento</strong> das melhores empresas de tecnologia com atuação no Brasil. Se você está se formando, procurando estágio ou apenas quer conhecer o mercado, não pode ficar de fora dessa.</p>
 			</div>
 		</div>
-	</div>
+	</main>
 
 	<hr>
 
-	<div class="section container" id="agenda">
+	<section class="section container" id="agenda">
 		<h1 class="title has-text-centered chip">Agenda</h1>
 		{% include agenda2.html %}
-	</div>
+	</section>
 
 	<hr>
 
-	<div class="section container" id="umdianacomputacao">
+	<section class="section container" id="umdianacomputacao">
 		<h1 class="title has-text-centered chip">Um Dia Na Computação</h1>
 		<div class="columns is-centered">
 			<div class="column is-10">
@@ -87,16 +85,18 @@ include_menu: false
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<hr>
 
-	<div class="section container" id="local">
+	<section class="section container" id="local">
 		<div class="columns is-centered">
 			<div class="column is-10">
 				<h1 class="title has-text-centered chip">Local</h1>
-				<p>A Semana da Computação ocorrerá no IME-USP, localizado na Cidade Universitária, Butantã, São Paulo.</p>
-				<p>As palestras serão realizadas no auditório <strong>Jacy Monteiro</strong> no <strong>Bloco B</strong>.</p>
+				<p>A Semana da Computação ocorrerá no IME-USP, localizado na Cidade Universitária. As palestras serão realizadas no auditório <strong>Jacy Monteiro</strong> no <strong>Bloco B</strong>.</p>
+				<address>
+					Rua do Matão, 1010 &mdash; CEP 05508-090 &mdash; São Paulo &mdash; SP
+				</address>
 			</div>
 		</div>
 
@@ -132,11 +132,14 @@ include_menu: false
 					</div>
 				</div>
 			</div>
-			<iframe frameborder="0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=-23.5595,-46.7313&key=AIzaSyDD00St30hKE871UdplT4ZRvQNFoG6TvYo" allowfullscreen></iframe>
+			<div id="map"></div>
 		</div>
 
-	</div>
-	<div class="footer-circuit">
+	</section>
+
+	<div class="footer-circuit"></div>
+
+	<script src="{{site.baseurl}}/map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABlTDrtQPTEalQC00yBU3spk4r7-4z09A&callback=initMap"
+		    async defer></script>
 </div>
-
-

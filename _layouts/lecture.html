@@ -16,7 +16,9 @@ layout: base
             <div class="lecture-details">
                 <div class="description">
                     <div class="title">Sinopse</div>
-                    <div class="content">{{ page.summary | markdownify }}</div>
+                    <article class="content">
+                        {{ page.summary | markdownify }}
+                    </article>
                 </div>
 
                 <hr>
@@ -28,7 +30,7 @@ layout: base
                         <div class="media">
                             <div class="media-left">
                                 <figure class="image is-128x128">
-                                    <img src="{{site.baseurl}}/images/palestrante/{{ page.picture }}" alt="{{ page.speaker }}" class="is-rounded" style="width: 100%">
+                                    <img src="{{site.baseurl}}/images/palestrante/{{ page.picture }}" alt="{{ page.speaker }}" class="is-rounded" style="width: 100%" />
                                 </figure>
                             </div>
                             <div class="media-content">
@@ -55,7 +57,7 @@ layout: base
         </div>
 
 
-        <div class="footer-circuit">
+        <div class="footer-circuit"></div>
 
     </div>
 

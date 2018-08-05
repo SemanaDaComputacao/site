@@ -1,6 +1,7 @@
 .agenda-tabular {
   font-family: Lato;
   overflow-x: auto;
+  line-height: 1.2;
 
   table {
     background-color: $background-on-blue;
@@ -8,6 +9,8 @@
     td, th {
       text-align: center;
       border-color: #c7dbec;
+      padding-top: 13px;
+      padding-bottom: 13px;
     }
     th {
       color: $green-darker;
@@ -25,7 +28,8 @@
 
   a {
     text-decoration: none;
-    color: $link-light-bg;
+    color: #00305D;
+
     &:hover {
       color: $link-alt-bg-hover;
     }
@@ -48,6 +52,7 @@
     flex-basis: 40%;
     margin-right: 20px;
     text-align: right;
+    font-size: 30px;
 
     .comma {
       display: none;
