@@ -138,7 +138,7 @@ h1.chip {
     content: "";
 
     position: absolute;
-    background-image: url('/images/circuit-r.png');
+    background-image: url($baseurl + '/images/circuit-r.png');
     background-size: contain;
     background-repeat: no-repeat;
 
