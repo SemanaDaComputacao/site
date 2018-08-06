@@ -12,7 +12,7 @@
             {% endif %}
                 <div>
                     {{ include.palestra.nome }}<br>
-                    <span class="palestrante">{{ include.palestra.palestrante }}</span>
+                    <span class="palestrante">{{ include.palestra.palestrante | markdownify }}</span>
                 </div>
             {% if include.palestra.link %}
             </a>
