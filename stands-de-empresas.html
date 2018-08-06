@@ -1,0 +1,79 @@
+---
+layout: base
+title: >
+    Stands de empresas
+summary: >
+    Nesse dia, contaremos com stands das melhores empresas de tecnologia com atuação no Brasil. As empresas oferecerão palestras e contato direto com seus recrutadores. Se você está se formando, procurando estágio ou apenas quer conhecer o mercado, não perca essa oportunidade.
+speakers:
+    - name: TFG
+      description: A [TFG](https://www.tfgco.com/) é uma empresa de desenvolvimento de jogos para mobile e também a maior produtora de jogos da America Latina e uma das maiores do mundo. Em menos de quatro anos de existência conquistamos nosso espaço no mercado e proporcionamos aos nossos funcionários um ambiente criativo e dinâmico. Lugar perfeito para quem quer criar algo inovador e de sucesso.
+      time: 14:00 - 15:00
+      picture: tfg.png
+    - name: Ewally
+      description: A [Ewally](https://ewally.com.br/) é uma fintech baseada em São Paulo. A ideia do nosso aplicativo é encantar o cliente com o jeito fácil, rápido e seguro de realizar atividades financeiras, deixando para o passado o tempo perdido em filas para pagar uma conta, o excesso de burocracia exigido para uma simples transferência de dinheiro, as dificuldades para realizar cobranças ou mesmo uma simples recarga de celular. Além disso, saímos na frente promovendo cidadania financeira, colocando as possibilidades ao alcance de todos!
+      time: 15:00 - 16:00
+      picture: ewally.png
+date: Sexta-feira, 24 de agosto
+---
+<div class="body">
+    <div class="lecture">
+        <div class="container section">
+
+            <h1 class="title">{{ page.title }}</h1>
+
+            <div class="lecture-subtitle">
+                <span><i class="far fa-calendar-alt"></i> {{ page.date }}</span>
+                <span><i class="fa fa-map-marker-alt"></i> Bloco B &mdash; IME-USP</span>
+            </div>
+
+            <div class="lecture-details">
+                <div class="description">
+                    <div class="title">Detalhes</div>
+                    <article class="content">
+                        {{ page.summary | markdownify }}
+                    </article>
+                </div>
+
+                <hr>
+
+                <div class="speaker">
+                    <div class="title">Empresas</div>
+
+                    <div class="content">
+                    {% for speaker in page.speakers %}
+                        <div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image">
+                                        <img src="{{site.baseurl}}/images/patrocinio/{{ speaker.picture }}" alt="{{ speaker.name }}" style="width: 100%; height: 60px;" />
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <p class="has-text-white"><i class="far fa-clock"></i> {{ speaker.time }}</p>
+                            <div class="content">
+                                {{ speaker.description | markdownify }}
+                            </div>
+                        </div>
+                        <hr>
+                    {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <h1 class="title has-text-centered chip">Agenda</h1>
+        <div class="section schedule-tabular">
+            {% include agenda.html %}
+        </div>
+        <div class="section schedule">
+            {% include agenda2.html %}
+        </div>
+
+
+        <div class="footer-circuit"></div>
+
+    </div>
+
+</div>

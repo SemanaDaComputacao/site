@@ -11,6 +11,7 @@
       border-color: #c7dbec;
       padding-top: 13px;
       padding-bottom: 13px;
+	  vertical-align: middle;
     }
     th {
       color: $green-darker;
@@ -71,6 +72,7 @@
     }
   }
 
+
   .lectures {
     flex-basis: 60%;
 
@@ -84,6 +86,10 @@
       margin-bottom: 14px;
       color: $green;
       text-decoration: none;
+
+	  .details {
+		align-self: center;
+	  }
 
       .lecture {
         font-size: 25px;

@@ -1,10 +1,14 @@
-<td>
+<td{% if include.palestra.nome == 'Stands de Empresas' %} rowspan=2{% endif %}>
     {% if include.palestra %}
         {% if include.palestra == 'Coffee Break' %}
             <span>{{include.palestra}}</span>
+        {% elsif include.palestra == 'Stands de Empresas' %}
+            <a href="{{site.baseurl}}/palestra/{{include.palestra.link}}">
+                <span class="palestrante">{{ include.palestra.palestrante }}</span>
+            </a>
         {% else %}
             {% if include.palestra.link %}
-            <a href="{{site.baseurl}}/palestra/{{include.palestra.link}}">
+            <a href="{{site.baseurl}}/{{include.palestra.link}}">
             {% endif %}
                 <div>
                     {{ include.palestra.nome }}<br>

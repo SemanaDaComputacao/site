@@ -15,26 +15,36 @@
 
         <div class="lectures">
             {% for item in dia[1] %}
+					{% if dia[0] == 'sexta' and item == false %}
+					{% continue %}
+					{% endif %}
+
                     {% if item.link %}
-                    <a href="{{site.baseurl}}/palestra/{{item.link}}">
+                    <a href="{{site.baseurl}}/{{item.link}}">
                     {% endif %}
                         <div class="linha">
                             <div class="time">
-                                {%if forloop.index == 1 %}14:00 <br> 14:50{% endif %}
-                                {%if forloop.index == 2 %}15:00 <br> 15:50{% endif %}
-                                {%if forloop.index == 3 %}<div style="visibility: hidden">15:50 <br> 16:30</div>{% endif %}
-                                {%if forloop.index == 4 %}16:30 <br> 17:20{% endif %}
-                                {%if forloop.index == 5 %}17:30 <br> 18:20{% endif %}
+                                {% if item.nome == 'Stands de Empresas' and forloop.index == 1 %}
+                                    14:00<br>16:00
+                                {% elsif item.nome == 'Stands de Empresas' and forloop.index == 4 %}
+                                    16:30<br>18:20
+                                {% else %}
+                                    {%if forloop.index == 1 %}14:00 <br> 14:50{% endif %}
+                                    {%if forloop.index == 2 %}15:00 <br> 15:50{% endif %}
+                                    {%if forloop.index == 3 %}<div style="visibility: hidden">15:50 <br> 16:30</div>{% endif %}
+                                    {%if forloop.index == 4 %}16:30 <br> 17:20{% endif %}
+                                    {%if forloop.index == 5 %}17:30 <br> 18:20{% endif %}
+                                {% endif %}
                             </div>
 
-                            <div>
+                            <div class="details">
                                 {% if item == false %}
                                     <em>Em breve</em>
                                 {% elsif item == 'Coffee Break' %}
                                     <span class="lecture">Coffee Break</span>
                                 {% else %}
                                     <span class="lecture">{{item.nome}}</span><br>
-                                    <span class="speaker">{{item.palestrante}}</span>
+                                    <span class="speaker">{{item.palestrante | markdownify }}</span>
                                 {% endif %}
                             </div>
                         </div>

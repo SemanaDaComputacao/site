@@ -1,0 +1,66 @@
+---
+layout: base
+---
+<div class="body">
+    <div class="lecture">
+        <div class="container section">
+
+            <h1 class="title">{{ page.title }}</h1>
+
+            <div class="lecture-subtitle">
+                <span><i class="far fa-calendar-alt"></i> {{ page.date }}</span>
+                <span><i class="far fa-clock"></i> {{ page.time }}</span>
+                <span><i class="fa fa-map-marker-alt"></i> Auditório Jacy Monteiro</span>
+            </div>
+
+            <div class="lecture-details">
+                <div class="description">
+                    <div class="title">Sinopse</div>
+                    <article class="content">
+                        {{ page.summary | markdownify }}
+                    </article>
+                </div>
+
+                <hr>
+
+                <div class="speaker">
+                    <div class="title">Palestrante</div>
+
+                    {% for page.speakers %}
+                    <div class="content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-128x128">
+                                    <img src="{{site.baseurl}}/images/palestrante/{{ page.picture }}" alt="{{ page.speaker }}" class="is-rounded" style="width: 100%" />
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">{{ page.speaker }}</p>
+                                <p class="subtitle is-6">{{ page.occupation }}, {{ page.affiliation }}</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            {{ page.bio | markdownify }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+
+        <h1 class="title has-text-centered chip">Agenda</h1>
+        <div class="section schedule-tabular">
+            {% include agenda.html %}
+        </div>
+        <div class="section schedule">
+            {% include agenda2.html %}
+        </div>
+
+
+        <div class="footer-circuit"></div>
+
+    </div>
+
+</div>

@@ -29,7 +29,9 @@
                     {% include linha.html palestra=terca %}
                     {% include linha.html palestra=quarta %}
                     {% include linha.html palestra=quinta %}
-                    {% include linha.html palestra=sexta %}
+                    {% if forloop.index0 < 4 and forloop.index != 2 %}
+                        {% include linha.html palestra=sexta %}
+                    {% endif %}
 
                 </tr>
             {% endfor %}

@@ -1,24 +1,24 @@
 segunda:
     - nome: Computação Quântica
       palestrante: Carlos Cardonha (IBM)
-      link: computacao-quantica
+      link: palestra/computacao-quantica
     - nome: Redes e P2P
       palestrante: Daniel Batista (IME-USP)
-      link: redes-e-p2p
+      link: palestra/redes-e-p2p
     - Coffee Break
     - nome: Banco de Dados Chave-Valor
       palestrante: Igleson Freire (VTEX)
-      link: chronus-storage
+      link: palestra/chronus-storage
     - nome: Machine Learning
       palestrante: João Paulo Navarro (NVIDIA)
-      link: machine-learning
+      link: palestra/machine-learning
 
 terca:
     - nome: Cybersegurança
       palestrante: Marcos Simplício (POLI-USP)
-      link: cyberseguranca
+      link: palestra/cyberseguranca
     - nome: Lógica Fuzzy
-      link: logica-fuzzy
+      link: palestra/logica-fuzzy
       palestrante: Pedro Tonelli (IME-USP)
     - Coffee Break
     - nome: Blockchain
@@ -28,34 +28,38 @@ terca:
 quarta:
     - nome: Lei de Moore
       palestrante: Aleardo Manaciero (UNESP)
-      link: lei-de-moore
+      link: palestra/lei-de-moore
     - nome: Algoritmos Evolutivos
-      link: algoritmos-evolutivos
+      link: palestra/algoritmos-evolutivos
       palestrante: Fernando Von Zuben (UNICAMP)
     - Coffee Break
     - nome: Jornalismo de Dados
       palestrante: Natália Mazotte (OKBr)
-      link: jornalismo-de-dados
+      link: palestra/jornalismo-de-dados
     - false
 
 quinta:
     - nome: Deep Learning
       palestrante: Marcelo Finger (IME-USP)
-      link: deep-learning
+      link: palestra/deep-learning
     - nome: Dívida Técnica
       palestrante: Graziela Tonin (UFFS)
-      link: divida-tecnica
+      link: palestra/divida-tecnica
     - Coffee Break
     - nome: User Experience
       palestrante: Giselle Beiguelman (FAUUSP)
-      link: user-experience
+      link: palestra/user-experience
     - nome: Geração Procedural em Jogos
-      palestrante: André Siqueira Ruela (EACH-USP)
-      link: geracao-procedural-em-jogos
+      palestrante: André Siqueira (EACH-USP)
+      link: palestra/geracao-procedural-em-jogos
 
 sexta:
     - nome: Stands de Empresas
-    - nome: Stands de Empresas
+      palestrante: TFG, Ewally
+      link: stands-de-empresas
+    - false
     - Coffee Break
     - nome: Stands de Empresas
-    - nome: Stands de Empresas
+      palestrante: _Em breve_
+      link: stands-de-empresas
+    - false
