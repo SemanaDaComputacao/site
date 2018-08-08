@@ -10,6 +10,6 @@ speaker: Vinicio Oliveira
 picture: Vinicio Oliveira.jpg
 affiliation: TATA Consultancy Services
 occupation: Trainee
-date: Terça-feira, 21 de agosto
+date: Quarta-feira, 21 de agosto
 time: 17:30 - 18:20
 ---

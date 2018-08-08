@@ -23,9 +23,9 @@ terca:
     - Coffee Break
     - nome: Blockchain
       palestrante: Percival Lucena (IBM)
-    - nome: Internet das Coisas
-      link: palestra/internet-das-coisas
-      palestrante: Vinicio Oliveira (TATA)
+    - nome: Arquitetura de microsserviços
+      palestrante: Renato Cordeiro (USPCodeLab)
+      link: palestra/arquitetura-de-microsservicos
 
 quarta:
     - nome: Lei de Moore
@@ -38,7 +38,9 @@ quarta:
     - nome: Jornalismo de Dados
       palestrante: Natália Mazotte (OKBr)
       link: palestra/jornalismo-de-dados
-    - false
+    - nome: Internet das Coisas
+      link: palestra/internet-das-coisas
+      palestrante: Vinicio Oliveira (TATA)
 
 quinta:
     - nome: Deep Learning
