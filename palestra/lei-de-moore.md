@@ -9,6 +9,7 @@ bio: >
 
      Tem interesse nas áreas de simulação de sistemas discretos, avaliação de desempenho, computação paralela, ensino de computação.
 speaker: Aleardo Manaciero
+picture: Aleardo Manaciero.jpg
 affiliation: UNESP
 occupation: Professor
 date: Quarta-feira, 22 de agosto
