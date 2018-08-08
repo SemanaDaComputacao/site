@@ -23,7 +23,9 @@ terca:
     - Coffee Break
     - nome: Blockchain
       palestrante: Percival Lucena (IBM)
-    - false
+    - nome: Internet das Coisas
+      link: palestra/internet-das-coisas
+      palestrante: Vinicio Oliveira (TATA)
 
 quarta:
     - nome: Lei de Moore

@@ -1,5 +1,5 @@
-- nome: NVIDIA
-  img: images/patrocinio/nvidia.png
+- nome: USP Code Lab
+  img: images/patrocinio/codelab.png
   url: https://www.nvidia.com.br/
 
 - nome: Ewally
@@ -14,13 +14,18 @@
   img: images/patrocinio/vtex.png
   url: https://www.vtex.com/pt-br/
 
-- nome: TFG
-  img: images/patrocinio/tfg.png
-  url: https://www.tfgco.com/
+- nome: NVIDIA
+  img: images/patrocinio/nvidia.png
+  url: https://www.nvidia.com.br/
 
 # - nome: IBM
 #   img: images/patrocinio/ibm.png
 #   url: https://www.ibm.com/
+
+- nome: TFG
+  img: images/patrocinio/tfg.png
+  url: https://www.tfgco.com/
+
 
 - nome: Ex-Alunos do BCC
   img: images/patrocinio/ex-alunos.png
