@@ -8,8 +8,8 @@ bio: >
     Graduado em engenharia elétrica pela Unicamp em 1987, onde também fez seu mestrado (1991) e doutorado (1997). Durante o mestrado foi contratado pela UNESP, como docente do curso de Ciência da Computação do campus de São José do Rio Preto, ministrando as disciplinas de “Sistemas Operacionais” e “Redes de Computadores”. No começo do doutorado (entre 1992 e 1994) foi pesquisador visitante no Fermilab, EUA, onde deu suporte de computação paralela para um dos grupos de física de partículas. Depois do doutorado atuou como coordenador do curso de graduação (por quase 7 anos) e do curso de mestrado em computação (por 5 anos). Foi também Diretor de Secretarias Regionais da SBC no biênio 2001-2003. Foi professor visitante na University of Oregon entre 2010 e 2011, com pesquisa em medição de desempenho e aulas de sistemas distribuídos.
 
      Tem interesse nas áreas de simulação de sistemas discretos, avaliação de desempenho, computação paralela, ensino de computação.
-speaker: Aleardo Manaciero
-picture: Aleardo Manaciero.jpg
+speaker: Aleardo Manacero
+picture: Aleardo Manacero.jpg
 affiliation: UNESP
 occupation: Professor
 date: Quarta-feira, 22 de agosto

@@ -29,7 +29,7 @@ terca:
 
 quarta:
     - nome: Lei de Moore
-      palestrante: Aleardo Manaciero (UNESP)
+      palestrante: Aleardo Manacero (UNESP)
       link: palestra/lei-de-moore
     - nome: Algoritmos Evolutivos
       link: palestra/algoritmos-evolutivos

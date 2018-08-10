@@ -7,7 +7,7 @@ layout: base
 
     <div class="columns is-centered">
       <div class="column is-10">
-        <p>A Semana da Computação é um evento anual que promove um ciclo de palestras sobre os mais variados temas da computação. Realizado desde 2009 com o nome <strong>Encontro do BCC</strong>, nesse ano estamos estamos mudando nosso nome em comemoração a 10ª edição do evento. Assim, esperamos deixar claro que esse evento não é só para as pessoas do BCC do IME, mas sim a todos os interessados em computação. Não deixe de curtir a nossa <a href="https://www.facebook.com/semanacomputacaoimeusp/">página no Facebook</a>!</p>
+        <p>A Semana da Computação é um evento anual que promove um ciclo de palestras sobre os mais variados temas da computação. Realizado desde 2009 como <strong>Encontro do BCC</strong>, nesse ano estamos estamos mudando nosso nome em comemoração a 10ª edição do evento. Assim, esperamos deixar claro que esse evento não é só para as pessoas do BCC do IME, mas sim a todos os interessados em computação. Não deixe de curtir a nossa <a href="https://www.facebook.com/semanacomputacaoimeusp/">página no Facebook</a>!</p>
       </div>
     </div>
   </section>
@@ -22,16 +22,16 @@ layout: base
         <div class="columns is-multiline">
 
           {% for member in site.data.equipe %}
-          <div class="column is-one-third" style="margin-bottom: 20px">
+          <div class="{% if forloop.rindex <= 2 %}is-one-1half{% else %}is-one-third{% endif %} column" style="margin-bottom: 20px">
             <div class="profile">
               <div class="image">
                 <figure style="background-image: url({{site.baseurl}}/images/equipe/{{member.foto}})"></figure>
               </div>
               <div class="media-content">
                 <p class="title is-4">{{member.nome}}</p>
-                <p class="subtitle is-6">
-                <span style="text-transform: uppercase">{{member.curso}}</span><br>
-                </p>
+                <!--<p class="subtitle is-6">-->
+                  <!--<span style="text-transform: uppercase">{{member.curso}}</span><br>-->
+                <!--</p>-->
               </div>
             </div>
           </div>
