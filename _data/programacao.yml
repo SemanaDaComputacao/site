@@ -21,8 +21,9 @@ terca:
       link: palestra/logica-fuzzy
       palestrante: Pedro Tonelli (IME-USP)
     - Coffee Break
-    - nome: Blockchain
+    - nome: Blockchain Permissionado
       palestrante: Percival Lucena (IBM)
+      link: palestra/blockchain-permissionado
     - nome: Arquitetura de microsserviços
       palestrante: Renato Cordeiro (USPCodeLab)
       link: palestra/arquitetura-de-microsservicos
