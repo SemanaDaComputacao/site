@@ -4,15 +4,23 @@ title: >
     Stands de empresas
 summary: >
     Nesse dia, contaremos com stands das melhores empresas de tecnologia com atuação no Brasil. Os participantes terão a chance de conhecer um pouco mais sobre o funcionamento da indústria, descobrir oportunidades de estágio e emprego, e tudo isso com funcionários das próprias empresas dispostos a tirarem todas as suas dúvidas!
+
+     Os stands estarão localizados no Bloco B do IME das 14:00 às 17:00. Haverá palestras das empresas nos horários detalhados abaixo.
 speakers:
     - name: TFG
       description: A [TFG](https://www.tfgco.com/) é uma empresa de desenvolvimento de jogos para mobile e também a maior produtora de jogos da America Latina e uma das maiores do mundo. Em menos de quatro anos de existência conquistamos nosso espaço no mercado e proporcionamos aos nossos funcionários um ambiente criativo e dinâmico. Lugar perfeito para quem quer criar algo inovador e de sucesso.
       time: 14:00 - 15:00
       picture: tfg.png
+      link: https://www.tfgco.com/
     - name: Ewally
       description: A [Ewally](https://ewally.com.br/) é uma fintech baseada em São Paulo. A ideia do nosso aplicativo é encantar o cliente com o jeito fácil, rápido e seguro de realizar atividades financeiras, deixando para o passado o tempo perdido em filas para pagar uma conta, o excesso de burocracia exigido para uma simples transferência de dinheiro, as dificuldades para realizar cobranças ou mesmo uma simples recarga de celular. Além disso, saímos na frente promovendo cidadania financeira, colocando as possibilidades ao alcance de todos!
       time: 15:00 - 16:00
       picture: ewally.png
+      link: https://ewally.com.br/
+    - name: VTEX
+      description: A [VTEX](https://www.vtex.com/pt-br/) é uma empresa global de tecnologia focada em produtos para e-commerce que impacta diariamente o trabalho de milhares de pessoas ao redor do mundo. Através dos seus produtos e serviços, oferece aos lojistas uma plataforma coesa para executar todo o seu negócio e proporcionar aos seus clientes sempre a melhor experiência de compra.
+      picture: vtex.png
+      link: https://www.vtex.com/pt-br/
 date: Sexta-feira, 24 de agosto
 ---
 <div class="body">
@@ -23,6 +31,7 @@ date: Sexta-feira, 24 de agosto
 
             <div class="lecture-subtitle">
                 <span><i class="far fa-calendar-alt"></i> {{ page.date }}</span>
+                <span><i class="far fa-clock"></i> 14:00 - 17:00</span>
                 <span><i class="fa fa-map-marker-alt"></i> Bloco B &mdash; IME-USP</span>
             </div>
 
@@ -45,12 +54,14 @@ date: Sexta-feira, 24 de agosto
                             <div class="media">
                                 <div class="media-left">
                                     <figure class="image">
-                                        <img src="{{site.baseurl}}/images/patrocinio/{{ speaker.picture }}" alt="{{ speaker.name }}" style="max-width: 100%; height: 50px; width: unset;" />
+                                        <a href="{{ speaker.link }}"><img src="{{site.baseurl}}/images/patrocinio/{{ speaker.picture }}" alt="{{ speaker.name }}" style="max-width: 100%; height: 50px; width: unset;" /></a>
                                     </figure>
                                 </div>
                             </div>
 
-                            <p class="has-text-white"><i class="far fa-clock"></i> {{ speaker.time }}</p>
+                            {% if speaker.time %}
+                            <p class="has-text-white"> Palestra: {{ speaker.time }}</p>
+                            {% endif %}
                             <div class="content">
                                 {{ speaker.description | markdownify }}
                             </div>
