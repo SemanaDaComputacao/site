@@ -6,9 +6,9 @@ segunda:
       palestrante: Daniel Batista (IME-USP)
       link: palestra/redes-e-p2p
     - Coffee Break
-    - nome: Banco de Dados Chave-Valor
-      palestrante: Igleson Freire (VTEX)
-      link: palestra/chronus-storage
+    - nome: BD com Controle de Versão
+      palestrante: Igleson Freire e Rémy De Fru (VTEX)
+      link: palestra/banco-de-dados-com-controle-de-versao
     - nome: Machine Learning
       palestrante: João Paulo Navarro (NVIDIA)
       link: palestra/machine-learning
@@ -36,17 +36,17 @@ quarta:
       link: palestra/algoritmos-evolutivos
       palestrante: Fernando Von Zuben (UNICAMP)
     - Coffee Break
-    - nome: Jornalismo de Dados
-      palestrante: Natália Mazotte (OKBr)
-      link: palestra/jornalismo-de-dados
+    - nome: Deep Learning
+      palestrante: Marcelo Finger (IME-USP)
+      link: palestra/deep-learning
     - nome: Internet das Coisas
       link: palestra/internet-das-coisas
       palestrante: Vinicio Oliveira (TATA)
 
 quinta:
-    - nome: Deep Learning
-      palestrante: Marcelo Finger (IME-USP)
-      link: palestra/deep-learning
+    - nome: Jornalismo de Dados
+      palestrante: Natália Mazotte (OKBr)
+      link: palestra/jornalismo-de-dados
     - nome: Dívida Técnica
       palestrante: Graziela Tonin (UFFS)
       link: palestra/divida-tecnica

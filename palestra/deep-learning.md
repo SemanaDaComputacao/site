@@ -14,6 +14,6 @@ speaker: Marcelo Finger
 occupation: Professor Titular
 affiliation: Insituto de Matemática e Estatística - USP
 picture: Marcelo Finger.jpg
-date: Quinta-feira, 23 de agosto
-time: 14:00 - 14:50
+date: Quarta-feira, 23 de agosto
+time: 16:30 - 17:20
 ---

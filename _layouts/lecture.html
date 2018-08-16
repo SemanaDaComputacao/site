@@ -27,21 +27,48 @@ layout: base
                     <div class="title">Palestrante</div>
 
                     <div class="content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image is-128x128">
-                                    <img src="{{site.baseurl}}/images/palestrante/{{ page.picture }}" alt="{{ page.speaker }}" class="is-rounded" style="width: 100%" />
-                                </figure>
+                    {% if page.speaker %}
+                        <div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-128x128">
+                                        <img src="{{site.baseurl}}/images/palestrante/{{ page.picture }}" alt="{{ page.speaker }}" class="is-rounded" style="width: 100%" />
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">{{ page.speaker }}</p>
+                                    <p class="subtitle is-6">{{ page.occupation }}, {{ page.affiliation }}</p>
+                                </div>
                             </div>
-                            <div class="media-content">
-                                <p class="title is-4">{{ page.speaker }}</p>
-                                <p class="subtitle is-6">{{ page.occupation }}, {{ page.affiliation }}</p>
-                            </div>
-                        </div>
 
-                        <div class="content">
-                            {{ page.bio | markdownify }}
+                            <div class="content">
+                                {{ page.bio | markdownify }}
+                            </div>
                         </div>
+                    {% else %}
+                        {% for speaker in page.speakers %}
+                            <div>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-128x128">
+                                            <img src="{{site.baseurl}}/images/palestrante/{{ speaker.picture }}" alt="{{ speaker.name }}" class="is-rounded" style="width: 100%" />
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">{{ speaker.name }}</p>
+                                        <p class="subtitle is-6">{{ speaker.occupation }}, {{ speaker.affiliation }}</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    {{ speaker.bio | markdownify }}
+                                </div>
+                            </div>
+                            {% if forloop.last == false %}
+                            <hr>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
                     </div>
                 </div>
 

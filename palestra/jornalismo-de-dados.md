@@ -9,7 +9,7 @@ bio: >
 speaker: Natália Mazotte
 affiliation: Open Knowledge Brasil
 occupation: Diretora-executiva
-date: Quarta-feira, 22 de agosto
-time: 16:30 - 17:20
+date: Quinta-feira, 23 de agosto
+time: 14:00 - 14:50
 picture: Natália Mazotte.jpg
 ---
