@@ -1,6 +1,8 @@
 .lecture {
   .container {
-    max-width: 960px;
+    @include until($fullhd) {
+      max-width: 960px;
+    }
     padding-top: 30px;
     font-family: Lato;
     padding-bottom: 10px;

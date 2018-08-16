@@ -155,6 +155,10 @@ div.body {
   }
 }
 
+.features-wrapper {
+  margin: auto;
+  max-width: $fullhd;
+}
 .features {
   background: $background-on-blue;
   color: $black;
