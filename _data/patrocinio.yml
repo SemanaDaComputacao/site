@@ -18,14 +18,13 @@
   img: images/patrocinio/nvidia.png
   url: https://www.nvidia.com.br/
 
-# - nome: IBM
-#   img: images/patrocinio/ibm.png
-#   url: https://www.ibm.com/
-
 - nome: TFG
   img: images/patrocinio/tfg.png
   url: https://www.tfgco.com/
 
+- nome: CGI.br
+  img: images/patrocinio/nic.br.png
+  url: https://nic.br/
 
 - nome: Ex-Alunos do BCC
   img: images/patrocinio/ex-alunos.png
