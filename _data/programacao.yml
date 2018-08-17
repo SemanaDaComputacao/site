@@ -29,7 +29,7 @@ terca:
       link: palestra/arquitetura-de-microsservicos
 
 quarta:
-    - nome: Lei de Moore
+    - nome: Quebra da Lei de Moore
       palestrante: Aleardo Manacero (UNESP)
       link: palestra/lei-de-moore
     - nome: Algoritmos Evolutivos
