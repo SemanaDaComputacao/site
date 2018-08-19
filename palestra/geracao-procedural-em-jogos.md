@@ -7,7 +7,7 @@ summary: >
 bio: >
     André, de 31 anos, é natural de Iapu, uma cidadezinha no interior de Minas Gerais. Sua paixão por games começou ainda com o Master System 1, da SEGA, aos 4 anos de idade. Aos 18 anos, ingressou no curso de bacharelado em Ciências da Computação na Universidade Federal de Ouro Preto (UFOP), MG. Na UFOP, o interesse pela pesquisa nas áreas de IA e Otimização o levou a fazer o mestrado. Em 2012, já residindo em Belo Horizonte, MG, André iniciou o doutorado no Dep. de Engenharia Elétrica da UFMG, trabalhando na área de Geração Procedural de Conteúdo para jogos. Em 2016, André esteve pelo período de um ano no IFMG, Campus Sabará, ministrando as disciplinas de IA e AEDs. Atualmente mora em Campinas, SP, e atua como pesquisador pós-doc do PPgSI da EACH, USP Leste, desenvolvendo o projeto intitulado "Geração Procedural de Conteúdo Multifacetado por meio de Sistemas Multiagentes".
 speaker: André Siqueira Ruela
-picture: André Siqueira Ruela.jpg
+picture: André Siqueira Ruela.jpg
 affiliation: Escola de Artes, Ciências e Humanidades - USP
 occupation: Pesquisador
 date: Quinta, 23 de agosto
