@@ -10,13 +10,14 @@ div.body {
 .cover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#010b1c+0,11369f+55 */
   background: #010b1c; /* Old browsers */
-  background: url($baseurl + "/images/graph.png"), -moz-linear-gradient(top, #010b1c 60%, $blue 100%); /* FF3.6-15 */
-  background: url($baseurl + "/images/graph.png"), -webkit-linear-gradient(top, #010b1c 60%,$blue 100%); /* Chrome10-25,Safari5.1-6 */
-  background: url($baseurl + "/images/graph.png"), linear-gradient(to bottom, #010b1c 60%, $blue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: url($baseurl + "/images/fundo.png"), -moz-linear-gradient(top, #010b1c 60%, $blue 100%); /* FF3.6-15 */
+  background: url($baseurl + "/images/fundo.png"), -webkit-linear-gradient(top, #010b1c 60%,$blue 100%); /* Chrome10-25,Safari5.1-6 */
+  background: url($baseurl + "/images/fundo.png"), linear-gradient(to bottom, #010b1c 60%, $blue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010b1c', endColorstr='$blue'); /* IE6-9 */
 
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
 
   text-align: center;
   text-transform: uppercase;
@@ -24,14 +25,16 @@ div.body {
   .title {
     font-size: 5rem;
     font-family: 'Inconsolata';
-    color: #ddd;
+    //transform: rotate(-10deg);
+    color: #1d0534 !important;
+    text-shadow: -1px -1px 0 #bf0ec5, 1px -1px 0 #bf0ec5, -1px 1px 0 #bf0ec5, 1px 1px 0 #bf0ec5;
 
     @media (max-width: 480px) {
       font-size: 3.4rem;
     }
   }
   .subtitle {
-    color: #ddd;
+    color: #111;
 
     @media (max-width: 480px) {
       font-size: 1rem;
